@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-primary leading-6 overflow-hidden bg-slate-200;
+  }
+  .btn {
+    @apply rounded-lg bg-violet-700 py-4 px-6 text-white flex items-center justify-center;
+  }
+  .btn-lg {
+    @apply h-[60px];
+  }
+  .btn-md {
+    @apply h-[48px];
+  }
+}
