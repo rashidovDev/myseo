@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply font-primary text-paragraph leading-6 bg-slate-50;
+    @apply font-primary text-paragraph leading-6 bg-slate-200;
   }
   h1,
   h2,

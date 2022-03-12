@@ -14,14 +14,17 @@ const NavMobile = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <nav className='relative'>
-      <div onClick={() => setIsOpen(true)} className='cursor-pointer'>
+      <div
+        onClick={() => setIsOpen(true)}
+        className='cursor-pointer text-heading'
+      >
         <MenuAlt3Icon className='w-8 h-8' />
       </div>
 
       <ul
         className={`${
           isOpen ? 'right-0' : '-right-full'
-        } fixed bg-violet-800 top-0 w-full h-screen transition-all`}
+        } fixed bg-heading top-0 w-full h-screen transition-all`}
       >
         <div onClick={() => setIsOpen(false)} className='cursor-pointer'>
           <XIcon className='w-8 h-8' />
