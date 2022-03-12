@@ -4,10 +4,24 @@
 
 @layer base {
   body {
-    @apply font-primary leading-6 overflow-hidden bg-slate-200;
+    @apply font-primary text-paragraph leading-6 bg-slate-50;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply text-heading;
+  }
+  .subheading {
+    @apply text-xl;
+  }
+  .section-title {
+    @apply text-4xl tracking-[-2px];
   }
   .btn {
-    @apply rounded-lg bg-violet-700 py-4 px-6 text-white flex items-center justify-center;
+    @apply rounded-lg py-4 px-6 text-white flex items-center justify-center;
   }
   .btn-lg {
     @apply h-[60px];

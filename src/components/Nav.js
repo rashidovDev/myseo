@@ -6,10 +6,13 @@ import { navigation } from '../data';
 const Nav = () => {
   return (
     <nav>
-      <ul className='flex space-x-8'>
+      <ul className='flex space-x-8 capitalize text-[15px]'>
         {navigation.map((item, idx) => {
           return (
-            <li key={idx}>
+            <li
+              className='font-medium hover:text-secondary transition-all'
+              key={idx}
+            >
               <a href='#'>{item.name}</a>
             </li>
           );

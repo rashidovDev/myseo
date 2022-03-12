@@ -13,29 +13,28 @@ import Socials from './Socials';
 const NavMobile = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <nav className='bg-yellow-200'>
+    <nav className='relative'>
       <div onClick={() => setIsOpen(true)} className='cursor-pointer'>
         <MenuAlt3Icon className='w-8 h-8' />
       </div>
-      <div
+
+      <ul
         className={`${
           isOpen ? 'right-0' : '-right-full'
-        } bg-violet-700 absolute top-0 w-full h-screen transition-all`}
+        } fixed bg-violet-800 top-0 w-full h-screen transition-all`}
       >
-        <ul>
-          <div onClick={() => setIsOpen(false)} className='cursor-pointer'>
-            <XIcon className='w-8 h-8' />
-          </div>
-          {navigation.map((item, idx) => {
-            return (
-              <li key={idx}>
-                <a href='#'>{item.name}</a>
-              </li>
-            );
-          })}
-        </ul>
+        <div onClick={() => setIsOpen(false)} className='cursor-pointer'>
+          <XIcon className='w-8 h-8' />
+        </div>
+        {navigation.map((item, idx) => {
+          return (
+            <li key={idx}>
+              <a href='#'>{item.name}</a>
+            </li>
+          );
+        })}
         <Socials />
-      </div>
+      </ul>
     </nav>
   );
 };

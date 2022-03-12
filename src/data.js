@@ -30,14 +30,18 @@ export const navigation = [
 export const social = [
   {
     icon: YoutubeIcon,
+    href: '',
   },
   {
     icon: InstagramIcon,
+    href: '',
   },
   {
     icon: GithubIcon,
+    href: '',
   },
   {
     icon: DribbbleIcon,
+    href: '',
   },
 ];
