@@ -11,6 +11,9 @@ import FiverBrandIcon from './assets/img/brands/fiverr.png';
 import BehanceBrandIcon from './assets/img/brands/behance.png';
 import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
 
+// portfolio images
+import PortfolioImage from './assets/img/portofolio/image.png';
+
 // navigation
 export const navigation = [
   {
@@ -74,5 +77,55 @@ export const brands = [
   {
     img: DribbbleBrandIcon,
     href: '',
+  },
+];
+
+// portfolio
+export const projectsData = [
+  {
+    image: PortfolioImage,
+    name: 'project 1',
+    category: 'UI/UX design',
+  },
+  {
+    image: PortfolioImage,
+    name: 'project 2',
+    category: 'web development',
+  },
+  {
+    image: PortfolioImage,
+    name: 'project 3',
+    category: 'UI/UX design',
+  },
+  {
+    image: PortfolioImage,
+    name: 'project 4',
+    category: 'branding',
+  },
+  {
+    image: PortfolioImage,
+    name: 'project 5',
+    category: 'web development',
+  },
+  {
+    image: PortfolioImage,
+    name: 'project 6',
+    category: 'web development',
+  },
+];
+
+// portfolio navigation
+export const projectsNav = [
+  {
+    name: 'all',
+  },
+  {
+    name: 'UI/UX Design',
+  },
+  {
+    name: 'web development',
+  },
+  {
+    name: 'branding',
   },
 ];

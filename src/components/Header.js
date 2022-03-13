@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 // import components
 import Logo from '../assets/img/logo.png';
@@ -7,8 +7,22 @@ import NavMobile from '../components/NavMobile';
 import Socials from './Socials';
 
 const Header = () => {
+  const [active, setActive] = useState(false);
+  useEffect(() => {
+    window.addEventListener('scroll', (e) => {
+      if (window.scrollY > 10) {
+        setActive(true);
+      } else {
+        setActive(false);
+      }
+    });
+  });
   return (
-    <header className='h-20'>
+    <header
+      className={`${
+        active && 'bg-white shadow-md h-[90px]'
+      } h-20 fixed left-0 w-full transition-all duration-200`}
+    >
       <div className='container mx-auto h-full flex items-center justify-between'>
         {/* logo */}
         <a href='#'>

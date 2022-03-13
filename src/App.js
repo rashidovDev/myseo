@@ -4,13 +4,17 @@ import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Brands from './components/Brands';
+import About from './components/About';
+import Portfolio from './components/Portfolio';
 
 const App = () => {
   return (
-    <div className='bg-white max-w-[1440px] mx-auto h-screen'>
+    <div className='bg-white max-w-[1440px] mx-auto relative'>
       <Header />
       <Hero />
       <Brands />
+      <About />
+      <Portfolio />
     </div>
   );
 };

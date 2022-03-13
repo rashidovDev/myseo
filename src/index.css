@@ -14,11 +14,17 @@
   h6 {
     @apply text-heading;
   }
-  .subheading {
-    @apply text-xl;
+  .badge {
+    @apply bg-[#F9F5FF] text-base text-primary font-medium rounded-full py-1 px-3 max-w-max flex items-center justify-center mb-3;
+  }
+  .section {
+    @apply py-12 lg:py-24;
   }
   .section-title {
-    @apply text-4xl tracking-[-2px];
+    @apply text-3xl lg:text-4xl font-medium lg:font-semibold tracking-[-2px] mb-5;
+  }
+  .subtitle {
+    @apply text-lg lg:text-xl lg:leading-[30px] mb-24 max-w-3xl;
   }
   .btn {
     @apply rounded-lg py-4 px-6 text-white flex items-center justify-center;
