@@ -15,7 +15,10 @@
     @apply text-heading;
   }
   .badge {
-    @apply bg-[#F9F5FF] text-base text-primary font-medium rounded-full py-1 px-3 max-w-max flex items-center justify-center mb-3;
+    @apply text-base text-primary font-medium rounded-full py-1 px-3 max-w-max flex items-center justify-center mb-4;
+  }
+  .badge-primary {
+    @apply bg-[#F9F5FF];
   }
   .section {
     @apply py-12 lg:py-24;
@@ -24,7 +27,7 @@
     @apply text-3xl lg:text-4xl font-medium lg:font-semibold tracking-[-2px] mb-5;
   }
   .subtitle {
-    @apply text-lg lg:text-xl lg:leading-[30px] mb-24 max-w-3xl;
+    @apply text-lg lg:text-xl lg:leading-[30px] mb-16 lg:mb-24 max-w-3xl;
   }
   .btn {
     @apply rounded-lg py-4 px-6 text-white flex items-center justify-center;

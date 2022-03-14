@@ -8,7 +8,7 @@ const Portfolio = () => {
     <section className='section min-h-[1400px]'>
       <div className='container mx-auto'>
         <div className='flex flex-col items-center text-center'>
-          <div className='badge'>Portfolio</div>
+          <div className='badge badge-primary'>Portfolio</div>
           <h2 className='section-title'>My latest work</h2>
           <p className='subtitle'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veniam

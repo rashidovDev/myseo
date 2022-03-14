@@ -8,6 +8,7 @@ import { projectsNav } from '../data';
 const Projects = () => {
   const [item, setItem] = useState({ name: 'all' });
   const [projects, setProjects] = useState([]);
+  const [active, setActive] = useState(0);
 
   useEffect(() => {
     // get projects based on item
@@ -21,21 +22,26 @@ const Projects = () => {
     }
   }, [item]);
 
-  const handleClick = (e) => {
+  const handleClick = (e, index) => {
     setItem({ name: e.target.textContent.toLowerCase() });
+    setActive(index);
   };
 
   return (
     <div>
       {/* projects nav */}
-      <nav className='mb-16 max-w-xl mx-auto'>
+      <nav className='mb-12 max-w-xl mx-auto'>
         <ul className='flex flex-col md:flex-row justify-evenly items-center'>
-          {projectsNav.map((item, idx) => {
+          {projectsNav.map((item, index) => {
             return (
               <li
-                onClick={(e) => handleClick(e)}
-                className={`cursor-pointer capitalize text-primary font-medium m-4`}
-                key={idx}
+                onClick={(e) => {
+                  handleClick(e, index);
+                }}
+                className={`${
+                  active === index ? 'badge badge-primary' : 'bg-none'
+                } cursor-pointer capitalize text-primary font-medium m-4 badge`}
+                key={index}
               >
                 {item.name}
               </li>
@@ -45,9 +51,9 @@ const Projects = () => {
       </nav>
       {/* projects */}
       <div className='grid gap-y-12 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16'>
-        {projects.map((item, idx) => {
+        {projects.map((item, index) => {
           return (
-            <div key={idx} className='flex flex-col'>
+            <div key={index} className='flex flex-col'>
               <img className='mb-8' src={item.image} alt='' />
               <p className='capitalize text-sm font-semibold text-primary mb-3'>
                 {item.category}

@@ -8,7 +8,7 @@ const About = () => {
     <section className='section'>
       <div className='container mx-auto'>
         <div className='flex flex-col items-center text-center'>
-          <div className='badge'>About</div>
+          <div className='badge badge-primary'>About</div>
           <h2 className='section-title'>About my journey</h2>
           <p className='subtitle'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veniam
