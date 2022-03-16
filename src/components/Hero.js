@@ -7,8 +7,8 @@ const Hero = () => {
   return (
     <section className='lg:h-[720px] flex items-center'>
       <div className='w-full flex flex-col md:flex-row h-full py-16 lg:py-0'>
-        <div className='flex-1 md:pr-8 md:pl-8 lg:pl-20 flex flex-col items-center justify-center lg:items-start px-4 text-center pt-16'>
-          <p className='badge badge-primary text-md mb-[22px]'>
+        <div className='flex-1 md:pr-8 md:pl-8 lg:pl-40 flex flex-col items-center justify-center lg:items-start px-4 text-center pt-16'>
+          <p className='text-primary text-md font-medium mb-[22px]'>
             Hey, I'm Jane! 👋
           </p>
           <h1 className='text-4xl leading-[44px] md:text-5xl md:leading-tight lg:text-6xl lg:leading-[72px] font-medium md:tracking-[-2px]'>

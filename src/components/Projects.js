@@ -1,9 +1,13 @@
 import React, { useState, useEffect } from 'react';
 
+// import framer motion
+import { motion, AnimatePresence } from 'framer-motion';
 // import portfolio data
 import { projectsData } from '../data';
 // import portfolio navigation data
 import { projectsNav } from '../data';
+
+import Project from './Project';
 
 const Projects = () => {
   const [item, setItem] = useState({ name: 'all' });
@@ -50,25 +54,16 @@ const Projects = () => {
         </ul>
       </nav>
       {/* projects */}
-      <div className='grid gap-y-12 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16'>
-        {projects.map((item, index) => {
-          return (
-            <div key={index} className='flex flex-col'>
-              <img className='mb-8' src={item.image} alt='' />
-              <p className='capitalize text-sm font-semibold text-primary mb-3'>
-                {item.category}
-              </p>
-              <h3 className='text-2xl font-semibold capitalize mb-3'>
-                {item.name}
-              </h3>
-              <p className='text-base'>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit veniam
-                obcaecati ipsam.
-              </p>
-            </div>
-          );
-        })}
-      </div>
+      <motion.section
+        layout
+        className='grid gap-y-12 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16'
+      >
+        <AnimatePresence>
+          {projects.map((item, index) => {
+            return <Project item={item} key={index} />;
+          })}
+        </AnimatePresence>
+      </motion.section>
     </div>
   );
 };

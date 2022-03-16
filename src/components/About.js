@@ -1,37 +1,33 @@
 import React from 'react';
 
-// import image
+// import about img
 import Image from '../assets/img/about.png';
+// import logo
+import Logo from '../assets/img/logo.png';
 
 const About = () => {
   return (
     <section className='section'>
       <div className='container mx-auto'>
-        <div className='flex flex-col items-center text-center'>
-          <div className='badge badge-primary'>About</div>
-          <h2 className='section-title'>About my journey</h2>
-          <p className='subtitle'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veniam
-            labore nisium illum cupiditate reiciendis a numquam
-          </p>
-        </div>
         <div className='flex flex-col lg:flex-row lg:items-center gap-x-24 gap-y-6'>
           <img
-            className='object-cover h-full w-[566px] md:mx-auto lg:mx-0'
+            className='object-cover h-full w-[566px] md:mx-auto lg:mx-0 rounded-2xl'
             src={Image}
             alt=''
           />
           <div className='flex flex-col items-center text-center lg:items-start lg:text-left'>
-            <h3 className='text-2xl lg:text-3xl font-semibold mb-4'>
-              I build websites
-            </h3>
-            <p className='text-lg mb-8 max-w-[560px]'>
-              Lorem ipsum dolor amet consectetur adipisicing elit. Incidunt enim
-              voluptatum eos minus sit cumque accusantium at sint, autem unde
-              est!
-            </p>
+            <div className='flex flex-col'>
+              <h2 className='section-title mb-3'>Jane Doe</h2>
+              <p className='mb-4 italic'>Frontend Web Developer</p>
+              <hr className='mb-8' />
+              <p className='mb-8'>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Eligendi quas molestias quibusdam obcaecati ab exercitationem
+                maxime alias debitis sunt sit. Iste quidem natus aspernatur in.
+              </p>
+            </div>
             <button className='btn btn-md bg-secondary hover:bg-secondary-hover transition-all'>
-              Hire me
+              Contact me
             </button>
           </div>
         </div>

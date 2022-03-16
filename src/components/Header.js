@@ -9,7 +9,7 @@ import Socials from './Socials';
 const Header = () => {
   const [active, setActive] = useState(false);
   useEffect(() => {
-    window.addEventListener('scroll', (e) => {
+    window.addEventListener('scroll', () => {
       if (window.scrollY > 10) {
         setActive(true);
       } else {
@@ -21,7 +21,7 @@ const Header = () => {
     <header
       className={`${
         active && 'bg-white shadow-md h-[90px]'
-      } h-20 fixed left-0 w-full transition-all duration-200`}
+      } h-20 fixed left-0 w-full transition-all duration-200 z-10`}
     >
       <div className='container mx-auto h-full flex items-center justify-between'>
         {/* logo */}

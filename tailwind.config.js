@@ -20,8 +20,8 @@ module.exports = {
       colors: {
         primary: '#8137ff',
         secondary: {
-          DEFAULT: '#EF37FF',
-          hover: '#C500D7',
+          DEFAULT: '#AA4DE3',
+          hover: '#A23CE0',
         },
         heading: '#101828',
         paragraph: '#667085',
