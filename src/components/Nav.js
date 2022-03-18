@@ -13,7 +13,7 @@ const Nav = () => {
               className='font-medium text-heading hover:text-secondary transition-all'
               key={idx}
             >
-              <a href='#'>{item.name}</a>
+              <a href={item.href}>{item.name}</a>
             </li>
           );
         })}

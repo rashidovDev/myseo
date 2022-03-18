@@ -2,12 +2,10 @@ import React from 'react';
 
 // import about img
 import Image from '../assets/img/about.png';
-// import logo
-import Logo from '../assets/img/logo.png';
 
 const About = () => {
   return (
-    <section className='section'>
+    <section className='section' id='about'>
       <div className='container mx-auto'>
         <div className='flex flex-col lg:flex-row lg:items-center gap-x-24 gap-y-6'>
           <img

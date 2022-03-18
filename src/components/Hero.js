@@ -5,7 +5,10 @@ import WomanImg from '../assets/img/banner-woman.png';
 
 const Hero = () => {
   return (
-    <section className='lg:h-[720px] flex items-center bg-none lg:bg-hero lg:bg-cover lg:bg-center lg:bg-no-repeat py-24 lg:py-0'>
+    <section
+      id='home'
+      className='lg:h-[720px] flex items-center bg-none lg:bg-hero lg:bg-cover lg:bg-center lg:bg-no-repeat py-24 lg:py-0'
+    >
       <div className='container mx-auto h-full'>
         <div className='flex items-center h-full'>
           <div className='flex-1 flex flex-col items-center lg:items-start'>
