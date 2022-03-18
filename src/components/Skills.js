@@ -5,9 +5,9 @@ import { skills } from '../data';
 
 const Skills = () => {
   return (
-    <section className='section bg-purple-50'>
+    <section className='bg-grey py-12'>
       <div className='container mx-auto'>
-        <div className='grid grid-cols-8'>
+        <div className='grid grid-cols-8 md:grid-flow-col'>
           {skills.map((skill) => {
             return (
               <div className='flex items-center justify-center'>

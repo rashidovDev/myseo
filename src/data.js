@@ -12,12 +12,7 @@ import BehanceBrandIcon from './assets/img/brands/behance.png';
 import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
 
 // projects images
-import WebDev1Img from './assets/img/projects/webdev1.png';
-import WebDev2Img from './assets/img/projects/webdev2.png';
-import WebDev3Img from './assets/img/projects/webdev3.png';
-import UIUXImg1 from './assets/img/projects/uiux1.png';
-import UIUXImg2 from './assets/img/projects/uiux2.png';
-import BrandingImg from './assets/img/projects/branding.png';
+import Project1 from './assets/img/projects/project1.png';
 
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png';
@@ -95,41 +90,41 @@ export const brands = [
   },
 ];
 
-// portfolio
+// projects
 export const projectsData = [
   {
-    image: UIUXImg1,
+    image: Project1,
     name: 'project name 1',
     category: 'UI/UX design',
   },
   {
-    image: WebDev1Img,
+    image: Project1,
     name: 'project name 2',
     category: 'web development',
   },
   {
-    image: UIUXImg2,
+    image: Project1,
     name: 'project name 3',
     category: 'UI/UX design',
   },
   {
-    image: BrandingImg,
+    image: Project1,
     name: 'project name 4',
     category: 'branding',
   },
   {
-    image: WebDev2Img,
+    image: Project1,
     name: 'project name 5',
     category: 'web development',
   },
   {
-    image: WebDev3Img,
+    image: Project1,
     name: 'project name 6',
     category: 'web development',
   },
 ];
 
-// portfolio navigation
+// projects
 export const projectsNav = [
   {
     name: 'all',
@@ -145,6 +140,7 @@ export const projectsNav = [
   },
 ];
 
+// skill
 export const skills = [
   {
     image: SkillImg1,

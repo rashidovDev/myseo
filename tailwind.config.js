@@ -23,11 +23,15 @@ module.exports = {
           DEFAULT: '#AA4DE3',
           hover: '#A23CE0',
         },
+        grey: {
+          DEFAULT: '#f9f8fb',
+        },
         heading: '#101828',
         paragraph: '#667085',
       },
       backgroundImage: {
-        'hero-pattern': "url('/src/assets/img/hero-pattern.png')",
+        hero: "url('/src/assets/img/hero-bg.png')",
+        blurb: "url('/src/assets/img/blurb.png')",
       },
     },
   },

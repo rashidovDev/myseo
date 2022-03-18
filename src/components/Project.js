@@ -13,7 +13,7 @@ const Project = ({ item, index }) => {
       className='flex flex-col'
     >
       <div className='relative flex mb-8'>
-        <div className='absolute top-0 w-full h-full bg-primary opacity-10 rounded-2xl'></div>
+        <div className='absolute top-0 w-full h-full rounded-2xl'></div>
         <img className='rounded-2xl' src={item.image} alt='' />
       </div>
       <p className='capitalize text-sm font-semibold text-primary mb-3'>

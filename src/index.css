@@ -27,7 +27,7 @@
     @apply text-3xl lg:text-4xl font-medium lg:font-semibold tracking-[-2px] mb-5;
   }
   .subtitle {
-    @apply text-lg lg:text-xl lg:leading-[30px] mb-16 lg:mb-24 max-w-3xl;
+    @apply text-base mb-16 lg:mb-24 max-w-[520px];
   }
   .btn {
     @apply rounded-lg py-4 px-6 text-white flex items-center justify-center;
