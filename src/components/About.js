@@ -19,9 +19,13 @@ const About = () => {
               <p className='mb-4 italic'>Frontend Web Developer</p>
               <hr className='mb-8' />
               <p className='mb-8'>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Eligendi quas molestias quibusdam obcaecati ab exercitationem
-                maxime alias debitis sunt sit. Iste quidem natus aspernatur in.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit tempore
+                earum dolorum quo consequatur rem nihil hic ducimus rerum soluta
+                neque harum velit molestiae dignissimos distinctio dolorum nisi
+                labore culpa nihil. <br />
+                <br />
+                Qui doloremque quod sit accusantium unde totam inventore
+                cupiditate ratione esse maxime eum recusandae ducimus.
               </p>
             </div>
             <button className='btn btn-md bg-secondary hover:bg-secondary-hover transition-all'>

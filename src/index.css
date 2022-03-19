@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply font-primary text-paragraph leading-6 bg-slate-200;
+    @apply font-primary text-paragraph leading-6 bg-gray-200;
   }
   h1,
   h2,
@@ -30,12 +30,15 @@
     @apply text-base mb-16 lg:mb-24 max-w-[520px];
   }
   .btn {
-    @apply rounded-lg py-4 px-6 text-white flex items-center justify-center;
+    @apply py-4 px-6 text-white flex items-center justify-center;
   }
   .btn-lg {
     @apply h-[60px];
   }
   .btn-md {
     @apply h-[48px];
+  }
+  .input {
+    @apply border-2 border-[#D0D5DD] h-[60px] outline-none pl-4 focus:border-primary transition-all w-full text-[#667085] font-primary text-base placeholder:text-[#667085];
   }
 }

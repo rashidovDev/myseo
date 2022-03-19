@@ -6,15 +6,15 @@ const Project = ({ item, index }) => {
   return (
     <motion.div
       layout
-      animate={{ opacity: 1 }}
+      animate={{ opacity: 1, scale: 1 }}
       initial={{ opacity: 0 }}
-      exit={{ opacity: 0 }}
+      exit={{ opacity: 0, scale: 0.8 }}
       key={index}
       className='flex flex-col'
     >
       <div className='relative flex mb-8'>
-        <div className='absolute top-0 w-full h-full rounded-2xl'></div>
-        <img className='rounded-2xl' src={item.image} alt='' />
+        <div className='absolute top-0 w-full h-full'></div>
+        <img src={item.image} alt='' />
       </div>
       <p className='capitalize text-sm font-semibold text-primary mb-3'>
         {item.category}

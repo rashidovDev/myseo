@@ -5,13 +5,13 @@ import { skills } from '../data';
 
 const Skills = () => {
   return (
-    <section className='bg-grey py-12'>
+    <section className='bg-gray-50 py-12'>
       <div className='container mx-auto'>
         <div className='grid grid-cols-8 md:grid-flow-col'>
           {skills.map((skill) => {
             return (
-              <div className='flex items-center justify-center'>
-                <img src={skill.image} alt='' />
+              <div className='flex items-center justify-center '>
+                <img className='lg:h-20' src={skill.image} alt='' />
               </div>
             );
           })}

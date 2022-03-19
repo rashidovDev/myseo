@@ -24,6 +24,12 @@ import SkillImg6 from './assets/img/skills/nodejs.png';
 import SkillImg7 from './assets/img/skills/git.png';
 import SkillImg8 from './assets/img/skills/figma.png';
 
+// import services icons
+import ServiceIcon1 from './assets/img/services/design.svg';
+import ServiceIcon2 from './assets/img/services/development.svg';
+import ServiceIcon3 from './assets/img/services/branding.svg';
+import ServiceIcon4 from './assets/img/services/seo.svg';
+
 // navigation
 export const navigation = [
   {
@@ -167,5 +173,33 @@ export const skills = [
   },
   {
     image: SkillImg8,
+  },
+];
+
+// services
+export const services = [
+  {
+    icon: ServiceIcon1,
+    name: 'Web Design',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+  },
+  {
+    icon: ServiceIcon2,
+    name: 'Web Development',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+  },
+  {
+    icon: ServiceIcon3,
+    name: 'Branding',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+  },
+  {
+    icon: ServiceIcon4,
+    name: 'SEO',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
   },
 ];
