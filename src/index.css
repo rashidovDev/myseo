@@ -39,6 +39,6 @@
     @apply h-[48px];
   }
   .input {
-    @apply border-2 border-[#D0D5DD] h-[60px] outline-none pl-4 focus:border-primary transition-all w-full text-[#667085] font-primary text-base placeholder:text-[#667085];
+    @apply border border-[#D0D5DD] h-[60px] outline-none pl-4 focus:border-primary transition-all w-full text-[#667085] font-primary text-sm placeholder:text-[#667085];
   }
 }

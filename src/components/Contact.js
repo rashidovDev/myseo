@@ -15,14 +15,14 @@ const Contact = () => {
         </div>
         <div className='flex flex-col gap-x-10 lg:flex-row'>
           <div className='flex-1 bg-green-100'>1</div>
-          <form className='space-y-4 bg-red-50 w-full max-w-[780px]'>
+          <form className='space-y-4 w-full max-w-[780px]'>
             <div className='flex gap-4'>
               <input className='input' type='text' placeholder='Your name' />
               <input className='input' type='email' placeholder='Your email' />
             </div>
             <input className='input' type='text' placeholder='Subject' />
             <textarea
-              className='outline-none w-full h-32 border-2 border-[#D0D5DD] p-4 resize-none text-[#667085] placeholder:text-[#667085] focus:border-2 focus:border-primary transition-all'
+              className='outline-none w-full h-32 border border-[#D0D5DD] p-4 resize-none text-[#667085] placeholder:text-[#667085] focus:border focus:border-primary text-sm transition-all'
               placeholder='Your message'
             ></textarea>
             <button className='btn btn-lg bg-secondary hover:bg-secondary-hover'>
