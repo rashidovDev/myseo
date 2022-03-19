@@ -24,7 +24,7 @@
     @apply py-12 lg:py-24;
   }
   .section-title {
-    @apply text-3xl lg:text-4xl font-medium lg:font-semibold tracking-[-2px] mb-5;
+    @apply text-3xl lg:text-4xl font-medium lg:font-extrabold tracking-[-2px] mb-5;
   }
   .subtitle {
     @apply text-base mb-16 lg:mb-24 max-w-[520px];

@@ -8,7 +8,9 @@ const Services = () => {
     <section id='services' className='section'>
       <div className='container mx-auto'>
         <div className='flex flex-col items-center text-center'>
-          <h2 className='section-title'>What I do for clients</h2>
+          <h2 className='section-title before:content-services relative before:absolute before:opacity-40 before:-top-7 before:-left-28 before:hidden before:lg:block'>
+            What I do for clients
+          </h2>
           <p className='subtitle'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veniam
             labore nisium illum cupiditate reiciendis a numquam
