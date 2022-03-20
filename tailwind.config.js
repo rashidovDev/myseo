@@ -34,6 +34,7 @@ module.exports = {
         },
         heading: '#101828',
         paragraph: '#667085',
+        footer: '#412B7F',
       },
       backgroundImage: {
         hero: "url('/src/assets/img/hero-bg.png')",

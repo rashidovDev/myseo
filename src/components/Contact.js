@@ -1,5 +1,8 @@
 import React from 'react';
 
+// import contact data
+import { contact } from '../data';
+
 const Contact = () => {
   return (
     <section className='section'>
@@ -13,8 +16,24 @@ const Contact = () => {
             labore nisium illum cupiditate reiciendis a numquam
           </p>
         </div>
-        <div className='flex flex-col gap-x-10 lg:flex-row'>
-          <div className='flex-1 bg-green-100'>1</div>
+        <div className='flex flex-col lg:gap-x-10 lg:flex-row'>
+          <div className='flex flex-1 flex-col items-start space-y-8 mb-12 lg:mb-0 lg:pt-2'>
+            {contact.map((item, index) => {
+              const { icon, title, subtitle, description } = item;
+              return (
+                <div className='flex flex-col lg:flex-row gap-x-4' key={index}>
+                  <div className='bg-primary w-14 h-14 flex items-center justify-center mb-4 lg:mb-0 text-white text-2xl'>
+                    {icon}
+                  </div>
+                  <div>
+                    <h4 className='font-medium text-xl mb-1'>{title}</h4>
+                    <p className='mb-1'>{subtitle}</p>
+                    <p className='text-primary font-medium'>{description}</p>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
           <form className='space-y-4 w-full max-w-[780px]'>
             <div className='flex gap-4'>
               <input className='input' type='text' placeholder='Your name' />

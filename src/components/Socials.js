@@ -8,9 +8,9 @@ const Socials = () => {
     <ul className='flex space-x-4'>
       {social.map((item, index) => {
         return (
-          <li key={index}>
-            <a href={item.href}>
-              <img src={item.icon} alt='' />
+          <li className='flex w-6 h-6 justify-center items-center' key={index}>
+            <a className='text-primary text-xl' href={item.href}>
+              {item.icon}
             </a>
           </li>
         );

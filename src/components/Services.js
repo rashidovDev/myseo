@@ -21,8 +21,8 @@ const Services = () => {
             const { icon, name, description } = service;
             return (
               <div className='bg-gray-50 p-6' key={index}>
-                <div className='bg-primary w-12 h-12 flex justify-center items-center mb-24'>
-                  <img className='h-6' src={icon} alt='' />
+                <div className='bg-primary w-12 h-12 flex justify-center items-center mb-24 text-white text-2xl'>
+                  {icon}
                 </div>
                 <h4 className='text-xl font-medium mb-2'>{name}</h4>
                 <p>{description}</p>

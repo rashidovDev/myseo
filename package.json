@@ -40,6 +40,7 @@
     "autoprefixer": "^10.4.2",
     "framer-motion": "^6.2.8",
     "postcss": "^8.4.8",
+    "react-icons": "^4.3.1",
     "tailwindcss": "^3.0.23"
   }
 }

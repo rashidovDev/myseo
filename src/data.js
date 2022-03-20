@@ -1,8 +1,16 @@
-// social icons
-import YoutubeIcon from './assets/img/social/youtube.png';
-import InstagramIcon from './assets/img/social/instagram.png';
-import GithubIcon from './assets/img/social/github.png';
-import DribbbleIcon from './assets/img/social/dribbble.png';
+//  icons
+import {
+  FiYoutube,
+  FiInstagram,
+  FiGithub,
+  FiDribbble,
+  FiLayout,
+  FiSettings,
+  FiPenTool,
+  FiTag,
+  FiMail,
+  FiMapPin,
+} from 'react-icons/fi';
 
 // companies icons
 import FreelancerBrandIcon from './assets/img/brands/freelancer.png';
@@ -23,12 +31,6 @@ import SkillImg5 from './assets/img/skills/nextjs.png';
 import SkillImg6 from './assets/img/skills/nodejs.png';
 import SkillImg7 from './assets/img/skills/git.png';
 import SkillImg8 from './assets/img/skills/figma.png';
-
-// import services icons
-import ServiceIcon1 from './assets/img/services/design.svg';
-import ServiceIcon2 from './assets/img/services/development.svg';
-import ServiceIcon3 from './assets/img/services/branding.svg';
-import ServiceIcon4 from './assets/img/services/seo.svg';
 
 // navigation
 export const navigation = [
@@ -54,22 +56,22 @@ export const navigation = [
   },
 ];
 
-// socials
+// social
 export const social = [
   {
-    icon: YoutubeIcon,
+    icon: <FiYoutube />,
     href: '',
   },
   {
-    icon: InstagramIcon,
+    icon: <FiInstagram />,
     href: '',
   },
   {
-    icon: GithubIcon,
+    icon: <FiGithub />,
     href: '',
   },
   {
-    icon: DribbbleIcon,
+    icon: <FiDribbble />,
     href: '',
   },
 ];
@@ -179,27 +181,43 @@ export const skills = [
 // services
 export const services = [
   {
-    icon: ServiceIcon1,
+    icon: <FiLayout />,
     name: 'Web Design',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
   },
   {
-    icon: ServiceIcon2,
+    icon: <FiSettings />,
     name: 'Web Development',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
   },
   {
-    icon: ServiceIcon3,
+    icon: <FiPenTool />,
     name: 'Branding',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
   },
   {
-    icon: ServiceIcon4,
+    icon: <FiTag />,
     name: 'SEO',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+  },
+];
+
+// contact
+export const contact = [
+  {
+    icon: <FiMail />,
+    title: 'Have a question?',
+    subtitle: 'I am here to help you.',
+    description: 'Email me at hello@youremail.com',
+  },
+  {
+    icon: <FiMapPin />,
+    title: 'Current Location',
+    subtitle: 'Bucharest, Romania',
+    description: 'Serving clients worldwide',
   },
 ];
