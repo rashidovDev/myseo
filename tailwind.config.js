@@ -2,7 +2,8 @@ module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     fontFamily: {
-      primary: 'Inter',
+      primary: 'Playfair Display',
+      body: 'Roboto',
     },
     container: {
       padding: {
@@ -24,16 +25,16 @@ module.exports = {
         contact: 'url("/src/assets/img/outline-text/contact.svg")',
       },
       colors: {
-        primary: '#8137ff',
-        secondary: {
-          DEFAULT: '#AA4DE3',
-          hover: '#A23CE0',
-        },
+        base: '#050402',
+        secondary: '#1C1D24',
+        tertiary: '#131419',
+        accent: '#DC965A',
+
         grey: {
           DEFAULT: '#f9f8fb',
         },
         heading: '#101828',
-        paragraph: '#667085',
+        paragraph: '#878e99',
         footer: '#412B7F',
       },
       backgroundImage: {

@@ -13,7 +13,7 @@ import Footer from './components/Footer';
 
 const App = () => {
   return (
-    <div className='bg-white max-w-[1600px] mx-auto relative'>
+    <div className='bg-white relative'>
       <Header />
       <Hero />
       <Brands />

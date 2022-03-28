@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 // import components
-import Logo from '../assets/img/logo.png';
+import Logo from '../assets/img/logo.svg';
 import Nav from '../components/Nav';
 import NavMobile from '../components/NavMobile';
 import Socials from './Socials';
@@ -20,8 +20,8 @@ const Header = () => {
   return (
     <header
       className={`${
-        active ? 'bg-white shadow-md h-[90px]' : 'h-20'
-      }  fixed left-0 w-full transition-all duration-200 z-10`}
+        active ? 'bg-tertiary h-[90px]' : 'h-20'
+      }  fixed left-0 w-full transition-all duration-100 z-10`}
     >
       <div className='container mx-auto h-full flex items-center justify-between'>
         {/* logo */}
