@@ -21,7 +21,7 @@
     @apply bg-[#F9F5FF];
   }
   .section {
-    @apply py-12 lg:py-24;
+    @apply py-12 lg:py-32;
   }
   .section-title {
     @apply text-3xl lg:text-4xl font-medium lg:font-extrabold tracking-[-2px] mb-5;
@@ -40,5 +40,8 @@
   }
   .input {
     @apply border border-[#D0D5DD] h-[60px] outline-none pl-4 focus:border-primary transition-all w-full text-[#667085] font-primary text-sm placeholder:text-[#667085];
+  }
+  .active {
+    @apply border-b-2 border-primary;
   }
 }

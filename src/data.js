@@ -36,23 +36,23 @@ import SkillImg8 from './assets/img/skills/figma.png';
 export const navigation = [
   {
     name: 'home',
-    href: '#home',
+    href: 'home',
   },
   {
     name: 'about',
-    href: '#about',
+    href: 'about',
   },
   {
     name: 'portfolio',
-    href: '#portfolio',
+    href: 'portfolio',
   },
   {
     name: 'services',
-    href: '#services',
+    href: 'services',
   },
   {
     name: 'contact',
-    href: '#contact',
+    href: 'contact',
   },
 ];
 

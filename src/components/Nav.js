@@ -3,6 +3,8 @@ import React from 'react';
 // import navigation data
 import { navigation } from '../data';
 
+import { Link } from 'react-scroll';
+
 const Nav = () => {
   return (
     <nav>
@@ -10,10 +12,19 @@ const Nav = () => {
         {navigation.map((item, idx) => {
           return (
             <li
-              className='font-medium text-heading hover:text-secondary transition-all'
+              className='font-medium text-heading hover:text-secondary transition-all cursor-pointer'
               key={idx}
             >
-              <a href={item.href}>{item.name}</a>
+              <Link
+                to={item.href}
+                activeClass='active'
+                spy={true}
+                smooth={true}
+                duration={500}
+                offset={-70}
+              >
+                {item.name}
+              </Link>
             </li>
           );
         })}
