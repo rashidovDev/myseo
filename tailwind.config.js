@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     fontFamily: {
       primary: 'Playfair Display',
-      body: 'Roboto',
+      body: 'Work Sans',
     },
     container: {
       padding: {
