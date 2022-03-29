@@ -43,7 +43,7 @@ const Projects = () => {
                   handleClick(e, index);
                 }}
                 className={`${
-                  active === index ? 'badge' : 'bg-none'
+                  active === index ? 'active' : ''
                 } cursor-pointer capitalize m-4 badge`}
                 key={index}
               >

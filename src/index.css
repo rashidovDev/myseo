@@ -30,16 +30,19 @@
     @apply text-base text-paragraph mb-16 lg:mb-24 max-w-[520px];
   }
   .btn {
-    @apply py-4 px-7 text-white flex items-center justify-center rounded-full;
+    @apply py-4 px-7 text-white flex items-center justify-center rounded-sm;
   }
   .btn-lg {
-    @apply h-[60px];
+    @apply h-[54px];
   }
   .btn-md {
     @apply h-[48px];
   }
   .input {
-    @apply border border-[#D0D5DD] h-[60px] outline-none pl-4 focus:border-accent transition-all w-full text-[#667085] font-primary text-sm placeholder:text-[#667085];
+    @apply bg-secondary text-paragraph h-[60px] outline-none pl-6 transition-all w-full font-body text-[15px] rounded-sm;
+  }
+  .textarea {
+    @apply bg-secondary resize-none w-full outline-none p-6 rounded-sm;
   }
   .active {
     @apply text-accent;
