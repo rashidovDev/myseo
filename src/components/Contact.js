@@ -28,7 +28,7 @@ const Contact = () => {
                   <div>
                     <h4 className='font-body text-xl mb-1'>{title}</h4>
                     <p className='mb-1 text-paragraph'>{subtitle}</p>
-                    <p className='text-accent font-normal'>{description}</p>
+                    <p className='text-accent font-normal '>{description}</p>
                   </div>
                 </div>
               );
