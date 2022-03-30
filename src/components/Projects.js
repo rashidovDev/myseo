@@ -56,7 +56,7 @@ const Projects = () => {
       {/* projects */}
       <motion.section
         layout
-        className='grid gap-y-12 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16'
+        className='grid gap-y-12 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-8'
       >
         <AnimatePresence>
           {projects.map((item, index) => {
