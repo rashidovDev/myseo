@@ -12,7 +12,7 @@ const Nav = () => {
         {navigation.map((item, idx) => {
           return (
             <li
-              className='text-white hover:text-accent transition-all cursor-pointer'
+              className='text-white hover:text-accent cursor-pointer'
               key={idx}
             >
               <Link
@@ -22,6 +22,7 @@ const Nav = () => {
                 smooth={true}
                 duration={500}
                 offset={-70}
+                className='transition-all duration-300'
               >
                 {item.name}
               </Link>

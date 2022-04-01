@@ -29,20 +29,10 @@ module.exports = {
         secondary: '#1C1D24',
         tertiary: '#131419',
         accent: {
-          DEFAULT: '#DC965A',
-          hover: '#b87943',
+          DEFAULT: '#ac6b34',
+          hover: '#925a2b',
         },
-
-        grey: {
-          DEFAULT: '#f9f8fb',
-        },
-        heading: '#101828',
         paragraph: '#878e99',
-        footer: '#412B7F',
-      },
-      backgroundImage: {
-        hero: "url('/src/assets/img/hero-bg.png')",
-        blurb: "url('/src/assets/img/blurb.png')",
       },
     },
   },
