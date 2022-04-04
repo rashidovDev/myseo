@@ -18,7 +18,7 @@ const Hero = () => {
       opacity: 1,
       scale: 1,
       transition: {
-        delayChildren: 0.5,
+        delayChildren: 0.3,
         staggerChildren: 0.3,
       },
     },
@@ -44,7 +44,7 @@ const Hero = () => {
     <section
       ref={ref}
       id='home'
-      className='lg:h-min-[80vh] flex items-center bg-primary lg:bg-cover lg:bg-center lg:bg-no-repeat py-32 lg:py-0 overflow-hidden'
+      className='lg:h-[85vh] flex items-center bg-primary lg:bg-cover lg:bg-center lg:bg-no-repeat py-32 lg:py-0 overflow-hidden'
     >
       <div className='container mx-auto h-full'>
         <motion.div

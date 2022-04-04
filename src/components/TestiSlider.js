@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React from 'react';
 // testimonials data
 import { testimonials } from '../data';
 // Import Swiper React components
@@ -21,7 +21,8 @@ const TestiSlider = () => {
           clickable: true,
         }}
         autoplay={{
-          delay: 2000,
+          delay: 2500,
+          disableOnInteraction: false,
         }}
         modules={[Autoplay, Pagination]}
         className='mySwiper'
@@ -37,7 +38,7 @@ const TestiSlider = () => {
                 <div className='flex flex-col max-w-3xl'>
                   <h5 className='font-body text-2xl mb-8'>{authorText}</h5>
                   <div>
-                    <p>{authorName}</p>
+                    <p className='text-lg text-accent'>{authorName}</p>
                     <p>{authorPosition}</p>
                   </div>
                 </div>

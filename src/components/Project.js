@@ -1,14 +1,24 @@
 import React from 'react';
 
+// import framer motion
 import { motion } from 'framer-motion';
+
+const itemVariants = {
+  hidden: { y: 20, opacity: 0 },
+  visible: {
+    y: 0,
+    opacity: 1,
+    transition: {
+      type: 'spring',
+    },
+  },
+};
 
 const Project = ({ item, index }) => {
   return (
     <motion.div
       layout
-      animate={{ opacity: 1, scale: 1 }}
-      initial={{ opacity: 0 }}
-      exit={{ opacity: 0, scale: 0.8 }}
+      variants={itemVariants}
       key={index}
       className='flex flex-col'
     >
