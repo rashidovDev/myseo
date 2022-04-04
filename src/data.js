@@ -32,6 +32,11 @@ import SkillImg6 from './assets/img/skills/nodejs.png';
 import SkillImg7 from './assets/img/skills/git.png';
 import SkillImg8 from './assets/img/skills/figma.png';
 
+// testimonial images
+import TestiImage1 from './assets/img/testimonials/t-avatar1.png';
+import TestiImage2 from './assets/img/testimonials/t-avatar2.png';
+import TestiImage3 from './assets/img/testimonials/t-avatar3.png';
+
 // navigation
 export const navigation = [
   {
@@ -49,6 +54,10 @@ export const navigation = [
   {
     name: 'services',
     href: 'services',
+  },
+  {
+    name: 'testimonials',
+    href: 'testimonials',
   },
   {
     name: 'contact',
@@ -203,6 +212,31 @@ export const services = [
     name: 'SEO',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+  },
+];
+
+// testimonials
+export const testimonials = [
+  {
+    authorImg: TestiImage1,
+    authorText:
+      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
+    authorName: 'Olivia Doe',
+    authorPosition: 'Head of Design, Google',
+  },
+  {
+    authorImg: TestiImage2,
+    authorText:
+      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
+    authorName: 'Olivia Doe',
+    authorPosition: 'Head of Design, Google',
+  },
+  {
+    authorImg: TestiImage3,
+    authorText:
+      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
+    authorName: 'Olivia Doe',
+    authorPosition: 'Head of Design, Google',
   },
 ];
 
