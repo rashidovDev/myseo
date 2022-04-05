@@ -11,7 +11,7 @@ import { motion } from 'framer-motion';
 const Services = () => {
   const [isAnimating, setIsAnimating] = useState(false);
   const { ref, inView } = useInView({
-    threshold: 0.2,
+    threshold: 0.4,
   });
 
   useEffect(() => {
@@ -21,6 +21,26 @@ const Services = () => {
       setIsAnimating(false);
     }
   });
+
+  const containerVariants = {
+    hidden: { opacity: 1, scale: 0 },
+    visible: {
+      opacity: 1,
+      scale: 1,
+      transition: {
+        delayChildren: 0.2,
+        staggerChildren: 0.2,
+      },
+    },
+  };
+
+  const itemVariants = {
+    hidden: { y: 20, opacity: 0 },
+    visible: {
+      y: 0,
+      opacity: 1,
+    },
+  };
 
   return (
     <section ref={ref} id='services' className='section bg-tertiary'>
@@ -34,20 +54,29 @@ const Services = () => {
             labore nisium illum cupiditate reiciendis a numquam
           </p>
         </div>
-        <div className='grid lg:grid-cols-4 gap-8'>
+        <motion.div
+          variants={containerVariants}
+          initial='hidden'
+          animate={isAnimating ? 'visible' : ''}
+          className='grid lg:grid-cols-4 gap-8'
+        >
           {services.map((service, index) => {
             const { icon, name, description } = service;
             return (
-              <div className='bg-secondary p-6' key={index}>
+              <motion.div
+                variants={itemVariants}
+                className='bg-secondary p-6'
+                key={index}
+              >
                 <div className='text-accent rounded-sm w-12 h-12 flex justify-center items-center mb-24 text-[28px]'>
                   {icon}
                 </div>
                 <h4 className='text-xl font-medium mb-2'>{name}</h4>
                 <p>{description}</p>
-              </div>
+              </motion.div>
             );
           })}
-        </div>
+        </motion.div>
       </div>
     </section>
   );
