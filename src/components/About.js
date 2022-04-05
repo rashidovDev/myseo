@@ -1,9 +1,11 @@
 import React, { useEffect } from 'react';
 
-// import about img
+// import img
 import Image from '../assets/img/about.webp';
 
+// import react observer
 import { useInView } from 'react-intersection-observer';
+// import framer motion
 import { useAnimation, motion } from 'framer-motion';
 
 const About = () => {
