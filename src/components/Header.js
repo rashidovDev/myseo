@@ -6,6 +6,7 @@ import Nav from '../components/Nav';
 import NavMobile from '../components/NavMobile';
 import Socials from './Socials';
 
+// import framer motion
 import { motion, useAnimation } from 'framer-motion';
 
 const Header = () => {

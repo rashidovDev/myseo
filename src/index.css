@@ -14,12 +14,6 @@
   h6 {
     @apply text-white font-primary;
   }
-  .badge {
-    @apply text-white rounded-full py-1 px-3 max-w-max flex items-center justify-center mb-4;
-  }
-  .badge-primary {
-    @apply bg-accent;
-  }
   .section {
     @apply py-12 lg:py-32;
   }

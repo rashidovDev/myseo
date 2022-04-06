@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useEffect, useRef, useState } from 'react';
+
+// import components
+import Modal from '../components/Modal';
 
 // import framer motion
 import { motion } from 'framer-motion';
+// import data
+import { projectsData } from '../data';
 
 const itemVariants = {
   hidden: { y: 20, opacity: 0 },
@@ -14,13 +19,38 @@ const itemVariants = {
   },
 };
 
-const Project = ({ item, index }) => {
+const Project = ({ item }) => {
+  const [showModal, setShowModal] = useState(false);
+  const [modal, setModal] = useState([]);
+  const ref = useRef();
+
+  const closeModal = (e) => {
+    // console.log(e.target);
+    console.log(ref.current);
+  };
+
+  const handleClick = (id) => {
+    // get item data
+    const itemData = projectsData.find((item) => {
+      return item.id === id;
+    });
+
+    setModal(itemData);
+    setShowModal(true);
+
+    return modal
+      ? document.querySelector('body').classList.add('overflow-y-hidden')
+      : document.querySelector('body').classList.remove('overflow-y-hidden');
+  };
+
   return (
     <motion.div
+      ref={ref}
       layout
       variants={itemVariants}
-      key={index}
+      key={item.id}
       className='flex flex-col'
+      onClick={() => handleClick(item.id)}
     >
       <div className='relative flex mb-8'>
         <div className='absolute top-0 w-full h-full'></div>
@@ -32,6 +62,7 @@ const Project = ({ item, index }) => {
         Lorem ipsum dolor sit amet, consectetur adipisicing elit veniam
         obcaecati ipsam.
       </p>
+      {showModal && <Modal closeModal={closeModal} />}
     </motion.div>
   );
 };
