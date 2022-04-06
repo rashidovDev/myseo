@@ -6,10 +6,10 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { projectsData } from '../data';
 // import portfolio navigation data
 import { projectsNav } from '../data';
-// import project
-import Project from './Project';
 // import react observer
 import { useInView } from 'react-intersection-observer';
+// import components
+import Project from './Project';
 
 const Projects = () => {
   const [item, setItem] = useState({ name: 'all' });

@@ -22,11 +22,9 @@ const itemVariants = {
 const Project = ({ item }) => {
   const [showModal, setShowModal] = useState(false);
   const [modal, setModal] = useState([]);
-  const ref = useRef();
 
-  const closeModal = (e) => {
-    // console.log(e.target);
-    console.log(ref.current);
+  const closeModal = (bool) => {
+    setShowModal(bool);
   };
 
   const handleClick = (id) => {
@@ -45,7 +43,6 @@ const Project = ({ item }) => {
 
   return (
     <motion.div
-      ref={ref}
       layout
       variants={itemVariants}
       key={item.id}
