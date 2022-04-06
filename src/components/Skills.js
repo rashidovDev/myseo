@@ -36,10 +36,8 @@ const Skills = () => {
   useEffect(() => {
     if (inView) {
       setIsAnimating(true);
-      console.log('true');
     } else {
       setIsAnimating(false);
-      console.log('false');
     }
   });
   return (
