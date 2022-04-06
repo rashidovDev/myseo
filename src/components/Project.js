@@ -23,10 +23,6 @@ const Project = ({ item }) => {
   const [showModal, setShowModal] = useState(false);
   const [modal, setModal] = useState([]);
 
-  const closeModal = (bool) => {
-    setShowModal(bool);
-  };
-
   const handleClick = (id) => {
     // get item data
     const itemData = projectsData.find((item) => {
@@ -59,7 +55,7 @@ const Project = ({ item }) => {
         Lorem ipsum dolor sit amet, consectetur adipisicing elit veniam
         obcaecati ipsam.
       </p>
-      {showModal && <Modal closeModal={closeModal} />}
+      {showModal && <Modal setShowModal={setShowModal} />}
     </motion.div>
   );
 };
