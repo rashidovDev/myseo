@@ -53,7 +53,7 @@ const Skills = () => {
             return (
               <motion.div
                 variants={itemVariants}
-                className='flex items-center justify-center '
+                className='flex items-center justify-center'
                 key={index}
               >
                 <img className='lg:h-20' src={skill.image} alt='' />
