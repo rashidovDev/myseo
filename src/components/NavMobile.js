@@ -24,7 +24,7 @@ const NavMobile = () => {
       <ul
         className={`${
           isOpen ? 'right-0' : '-right-full'
-        } fixed bg-accent top-0 bottom-0 w-full transition-all`}
+        } fixed bg-accent top-0 bottom-0 w-full transition-all duration-300`}
       >
         <div onClick={() => setIsOpen(false)} className='cursor-pointer'>
           <XIcon className='w-8 h-8' />
