@@ -1,64 +1,21 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 
 // import img
 import Image from '../assets/img/about.webp';
 
-// import react observer
-import { useInView } from 'react-intersection-observer';
-// import framer motion
-import { useAnimation, motion } from 'framer-motion';
-
 const About = () => {
-  const { ref, inView } = useInView({
-    threshold: 0.2,
-  });
-
-  const animation = useAnimation();
-  const animation2 = useAnimation();
-
-  useEffect(() => {
-    if (inView) {
-      animation.start({
-        opacity: 1,
-        scale: 1,
-        transition: {
-          delayChildren: 0.3,
-          staggerChildren: 0.3,
-          duration: 1,
-        },
-      });
-      animation2.start({
-        y: 0,
-        opacity: 1,
-      });
-    }
-    if (!inView) {
-      animation.start({
-        opacity: 1,
-        scale: 0,
-      });
-      animation2.start({
-        y: 20,
-        opacity: 0,
-      });
-    }
-  }, [inView]);
-
   return (
-    <section ref={ref} className='section bg-secondary' id='about'>
+    <section  className='section bg-secondary' id='about'>
       <div className='container mx-auto'>
-        <motion.div
-          animate={animation}
+        <div
           className='flex flex-col lg:flex-row lg:items-center gap-x-24 gap-y-6'
         >
-          <motion.img
-            animate={animation2}
+          <img
             className='object-cover h-full w-[566px] md:mx-auto lg:mx-0 rounded-2xl'
             src={Image}
             alt=''
           />
-          <motion.div
-            animate={animation2}
+          <div
             className='flex flex-col items-center text-center lg:items-start lg:text-left'
           >
             <div className='flex flex-col'>
@@ -82,8 +39,8 @@ const About = () => {
             <button className='btn btn-md bg-accent hover:bg-secondary-hover transition-all'>
               Contact me
             </button>
-          </motion.div>
-        </motion.div>
+          </div>
+        </div>
       </div>
     </section>
   );

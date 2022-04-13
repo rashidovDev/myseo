@@ -1,49 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
 // import contact data
 import { contact } from '../data';
 
-import { motion } from 'framer-motion';
-
-// import react observer
-import { useInView } from 'react-intersection-observer';
 
 const Contact = () => {
-  const [isAnimating, setIsAnimating] = useState(false);
-
-  const { ref, inView } = useInView({
-    threshold: 0.2,
-  });
-
-  useEffect(() => {
-    if (inView) {
-      setIsAnimating(true);
-    } else {
-      setIsAnimating(false);
-    }
-  });
-
-  const containerVariants = {
-    hidden: { opacity: 1, scale: 0 },
-    visible: {
-      opacity: 1,
-      scale: 1,
-      transition: {
-        delayChildren: 0.3,
-        staggerChildren: 0.3,
-      },
-    },
-  };
-
-  const itemVariants = {
-    hidden: { y: 20, opacity: 0 },
-    visible: {
-      y: 0,
-      opacity: 1,
-    },
-  };
   return (
-    <section ref={ref} className='section bg-primary' id='contact'>
+    <section className='section bg-primary' id='contact'>
       <div className='container mx-auto'>
         <div className='flex flex-col items-center text-center'>
           <h2 className='section-title before:content-contact relative before:absolute before:opacity-40 before:-top-7 before:-left-40 before:hidden before:lg:block'>
@@ -54,14 +17,10 @@ const Contact = () => {
             labore nisium illum cupiditate reiciendis a numquam
           </p>
         </div>
-        <motion.div
-          variants={containerVariants}
-          initial='hidden'
-          animate={isAnimating ? 'visible' : ''}
+        <div
           className='flex flex-col lg:gap-x-8 lg:flex-row'
         >
-          <motion.div
-            variants={itemVariants}
+          <div
             className='flex flex-1 flex-col items-start space-y-8 mb-12 lg:mb-0 lg:pt-2'
           >
             {contact.map((item, index) => {
@@ -79,9 +38,8 @@ const Contact = () => {
                 </div>
               );
             })}
-          </motion.div>
-          <motion.form
-            variants={itemVariants}
+          </div>
+          <form
             className='space-y-8 w-full max-w-[780px]'
           >
             <div className='flex gap-8'>
@@ -96,8 +54,8 @@ const Contact = () => {
             <button className='btn btn-lg bg-accent hover:bg-secondary-hover'>
               Send message
             </button>
-          </motion.form>
-        </motion.div>
+          </form>
+        </div>
       </div>
     </section>
   );

@@ -1,6 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
+
 // testimonials data
 import { testimonials } from '../data';
+
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -12,29 +14,9 @@ import '../swiper.css';
 // import required modules
 import { Autoplay, Pagination } from 'swiper';
 
-// import framer motion
-import { motion } from 'framer-motion';
 
-const TestiSlider = ({ isAnimating }) => {
-  const containerVariants = {
-    hidden: { opacity: 1, scale: 0 },
-    visible: {
-      opacity: 1,
-      scale: 1,
-      transition: {
-        delayChildren: 0.3,
-        staggerChildren: 0.3,
-      },
-    },
-  };
+const TestiSlider = () => {
 
-  const itemVariants = {
-    hidden: { y: 20, opacity: 0 },
-    visible: {
-      y: 0,
-      opacity: 1,
-    },
-  };
   return (
     <>
       <Swiper
@@ -52,20 +34,15 @@ const TestiSlider = ({ isAnimating }) => {
           const { authorImg, authorText, authorName, authorPosition } = item;
           return (
             <SwiperSlide key={index}>
-              <motion.div
-                variants={containerVariants}
-                initial='hidden'
-                animate={isAnimating ? 'visible' : ''}
+              <div
                 className='flex flex-col lg:flex-row gap-12 lg:gap-32'
               >
-                <motion.div
-                  variants={itemVariants}
+                <div
                   className='w-48 h-48 lg:w-[328px] lg:h-[328px]'
                 >
                   <img className='rounded-2xl' src={authorImg} alt='' />
-                </motion.div>
-                <motion.div
-                  variants={itemVariants}
+                </div>
+                <div
                   className='flex flex-col max-w-3xl'
                 >
                   <h5 className='font-body text-2xl mb-8 italic font-normal'>
@@ -75,8 +52,8 @@ const TestiSlider = ({ isAnimating }) => {
                     <p className='text-lg text-accent'>{authorName}</p>
                     <p>{authorPosition}</p>
                   </div>
-                </motion.div>
-              </motion.div>
+                </div>
+              </div>
             </SwiperSlide>
           );
         })}
