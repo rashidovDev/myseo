@@ -6,46 +6,19 @@ import Nav from '../components/Nav';
 import NavMobile from '../components/NavMobile';
 import Socials from './Socials';
 
-// import framer motion
-import { motion, useAnimation } from 'framer-motion';
 
 const Header = () => {
   const [bg, setBg] = useState(false);
-  const animation = useAnimation();
 
   useEffect(() => {
     window.addEventListener('scroll', () => {
-      return window.scrollY > 180 ? setBg(true) : setBg(false);
+      return window.scrollY > 50 ? setBg(true) : setBg(false);
     });
   });
 
-  useEffect(() => {
-    if (bg) {
-      animation.start({
-        background: '#131419',
-        height: '80px',
-        transition: {
-          type: 'tween',
-          duration: 0.4,
-        },
-      });
-    }
-    if (!bg) {
-      animation.start({
-        background: 'rgba(0, 0, 0, 0)',
-        borderBottom: `1px solid transparent`,
-        height: '100px',
-        transition: {
-          type: 'tween',
-          duration: 0.3,
-        },
-      });
-    }
-  });
   return (
-    <motion.header
-      animate={animation}
-      className='flex items-center fixed top-0 w-full h-20 px-4 text-white z-10'
+    <header
+      className={`${bg ? 'bg-tertiary h-20' : 'h-24'} flex items-center fixed top-0 w-full px-4 text-white z-10 transition-all duration-300`}
     >
       <div className='container mx-auto h-full flex items-center justify-between'>
         {/* logo */}
@@ -65,7 +38,7 @@ const Header = () => {
           <NavMobile />
         </div>
       </div>
-    </motion.header>
+    </header>
   );
 };
 
