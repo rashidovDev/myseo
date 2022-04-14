@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 
 // import data
 import { projectsData } from '../data';
@@ -23,8 +23,6 @@ const Projects = () => {
       setProjects(newProjects);
     }
   }, [item]);
-
-  
 
   const handleClick = (e, index) => {
     setItem({ name: e.target.textContent.toLowerCase() });
@@ -54,12 +52,10 @@ const Projects = () => {
         </ul>
       </nav>
       {/* projects */}
-      <section
-        className='grid gap-y-12 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-8'
-      >
-          {projects.map((item) => {
-            return <Project item={item} key={item.id} />;
-          })}
+      <section className='grid gap-y-12 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-8'>
+        {projects.map((item) => {
+          return <Project item={item} key={item.id} />;
+        })}
       </section>
     </div>
   );

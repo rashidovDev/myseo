@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 
 // import services data
 import { services } from '../data';
@@ -16,16 +16,11 @@ const Services = () => {
             labore nisium illum cupiditate reiciendis a numquam
           </p>
         </div>
-        <div
-          className='grid lg:grid-cols-4 gap-8'
-        >
+        <div className='grid lg:grid-cols-4 gap-8'>
           {services.map((service, index) => {
             const { icon, name, description } = service;
             return (
-              <div
-                className='bg-secondary p-6 rounded-2xl'
-                key={index}
-              >
+              <div className='bg-secondary p-6 rounded-2xl' key={index}>
                 <div className='text-accent rounded-sm w-12 h-12 flex justify-center items-center mb-24 text-[28px]'>
                   {icon}
                 </div>

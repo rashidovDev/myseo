@@ -1,12 +1,9 @@
 import React from 'react';
 
-const Project = ({item}) => {
+const Project = ({ item }) => {
   return (
-    <div
-      key={item.id}
-      className='flex flex-col'
-    >
-      <div className='relative flex mb-8'>
+    <div key={item.id} className='flex flex-col items-center text-center'>
+      <div className='mb-8'>
         <img className='rounded-2xl' src={item.image} alt='' />
       </div>
       <p className='capitalize text-accent text-sm mb-3'>{item.category}</p>
