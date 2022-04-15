@@ -18,15 +18,14 @@ const NavMobile = () => {
 
   const circleVariants = {
     hidden: {
-      opacity: 0,
       scale: 0,
     },
     visible: {
-      opacity: 1,
       scale: 180,
       transition: {
-        duration: 0.5,
-        type: 'tween',
+        type: 'spring',
+        stiffness: 160,
+        damping: 40,
       },
     },
   };
@@ -45,7 +44,7 @@ const NavMobile = () => {
         variants={circleVariants}
         initial='hidden'
         animate={isOpen ? 'visible' : 'hidden'}
-        className='w-4 h-4 rounded-full bg-accent fixed top-0 right-0 -z-10'
+        className='w-4 h-4 rounded-full bg-accent fixed top-0 right-0'
       ></motion.div>
 
       <ul
@@ -53,7 +52,10 @@ const NavMobile = () => {
           isOpen ? 'right-0' : '-right-full'
         } fixed top-0 bottom-0 w-full flex flex-col justify-center items-center transition-all duration-300 overflow-hidden`}
       >
-        <div onClick={() => setIsOpen(false)} className='cursor-pointer'>
+        <div
+          onClick={() => setIsOpen(false)}
+          className='cursor-pointer absolute top-8 right-8'
+        >
           <XIcon className='w-8 h-8' />
         </div>
         {navigation.map((item, idx) => {
