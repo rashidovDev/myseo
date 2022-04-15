@@ -13,6 +13,9 @@ import Socials from './Socials';
 // import framer
 import { motion } from 'framer-motion';
 
+// import Link
+import { Link } from 'react-scroll';
+
 const NavMobile = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -25,7 +28,17 @@ const NavMobile = () => {
       transition: {
         type: 'spring',
         stiffness: 160,
-        damping: 40,
+        damping: 60,
+      },
+    },
+  };
+
+  const ulVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        delay: 0.1,
       },
     },
   };
@@ -47,7 +60,10 @@ const NavMobile = () => {
         className='w-4 h-4 rounded-full bg-accent fixed top-0 right-0'
       ></motion.div>
 
-      <ul
+      <motion.ul
+        variants={ulVariants}
+        initial='hidden'
+        animate={isOpen ? 'visible' : ''}
         className={`${
           isOpen ? 'right-0' : '-right-full'
         } fixed top-0 bottom-0 w-full flex flex-col justify-center items-center transition-all duration-300 overflow-hidden`}
@@ -60,13 +76,21 @@ const NavMobile = () => {
         </div>
         {navigation.map((item, idx) => {
           return (
-            <li key={idx}>
-              <a href='#'>{item.name}</a>
+            <li key={idx} className='mb-8'>
+              <Link
+                to={item.href}
+                smooth={true}
+                duration={500}
+                offset={-70}
+                className='text-xl cursor-pointer capitalize'
+              >
+                {item.name}
+              </Link>
             </li>
           );
         })}
         <Socials />
-      </ul>
+      </motion.ul>
     </nav>
   );
 };
