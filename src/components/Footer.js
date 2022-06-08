@@ -3,8 +3,6 @@ import React from 'react';
 // import social data
 import { social } from '../data';
 
-// import logo
-import Logo from '../assets/img/logo.svg';
 
 const Footer = () => {
   return (
@@ -22,10 +20,10 @@ const Footer = () => {
             })}
           </div>
           <div>
-            <img src={Logo} alt='' />
+            <h1 className='text-4xl text-red-600 tracking-wide'> <span className='text-orange-600'>A</span>love<span className='text-orange-300'>D</span></h1>
           </div>
-          <p className='text-paragraph opacity-80 text-[15px]'>
-            &copy; 2022 Cristian Mihai. All rights reserved.
+          <p className='text-paragraph opacity-80 text-[15px] text-2xl'>
+            &copy;2022 Anvar Rashidov. All rights reserved.
           </p>
         </div>
       </div>
