@@ -1,16 +1,14 @@
 import React from 'react';
-
-// import img
-import Me2 from '../assets/img/me.jpg';
+import portfolio from '../assets/img/portfolio1.jpg';
 
 const About = () => {
   return (
     <section className='section bg-secondary' id='about'>
-      <div className='container mx-auto'>
-        <div className='flex flex-col xl:flex-row gap-24'>
+      <div className='container mx-auto align-center'>
+        <div className='flex flex-col xl:flex-row gap-24 items-center'>
           <img
-            className='object-cover h-full w-[566px] md:mx-auto lg:mx-0 rounded-2xl h-96'
-            src={Me2}
+            className='object-cover w-[566px] md:mx-auto lg:mx-0 rounded-2xl h-[550px]'
+            src={portfolio}
             alt=''
           />
           <div className='flex flex-col items-center text-center lg:items-start lg:text-left'>
@@ -28,7 +26,7 @@ const About = () => {
                 from university.Actually I've been improving my coding
                 skills more than 1 year and I know several knowledge well
                 when it comes to this.Now I chiefly focus on creating some
-                projects and that's why I want to do internship any IT companies. <br />
+                projects and that's why I want to work in IT companies. <br />
                 <br />
                 Generally speaking,I created some projects
                 in period of studying with my coursemates different
@@ -39,9 +37,9 @@ const About = () => {
                 projects and work as a team.
               </p>
             </div>
-            <button className='btn btn-md bg-accent hover:bg-secondary-hover transition-all'>
-              Contact me
-            </button>
+            <a href='http://t.me/anvar_rashidov' className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all rounded-[12px] cursor-pointer'>
+               Contact Me
+            </a>
           </div>
         </div>
       </div>

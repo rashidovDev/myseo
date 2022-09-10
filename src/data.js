@@ -12,7 +12,10 @@ import {
   FiMapPin,
 } from 'react-icons/fi';
 
+import {RiEnglishInput} from "react-icons/ri"; 
+
 import {
+  FaLinkedin,
   FaTelegram
 } from "react-icons/fa"
 
@@ -24,12 +27,12 @@ import BehanceBrandIcon from './assets/img/brands/behance.png';
 import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
 
 // projects images
-import Project1 from './assets/img/projects/crypto.jpg';
-import Project2 from './assets/img/projects/calculator.jpg';
-import Project3 from './assets/img/projects/ecommerce.jpg';
-import Project4 from './assets/img/projects/portfolio.jpg';
-import Project5 from './assets/img/projects/shopping.jpg';
-import Project6 from './assets/img/projects/weather.jpg';
+import Project1 from './assets/img/projects/zorfastfood.jpg';
+import Project2 from './assets/img/projects/dtm.jpg';
+import Project3 from './assets/img/projects/weatherr.jpg';
+import Project4 from './assets/img/projects/shoppinguz.jpg';
+import Project5 from './assets/img/projects/myportfolio.jpg';
+import Project6 from './assets/img/projects/calculatorr.jpg';
 
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png';
@@ -65,27 +68,26 @@ export const navigation = [
     name: 'services',
     href: 'services',
   },
-  {
-    name: 'contact',
-    href: 'contact',
-  },
 ];
 
 // social
 export const social = [
   {
     icon: <FiInstagram />,
-    href: 'http://instagram.com/rashidovdev',
+    href: 'http://instagram.com/rashidov_dev',
   },
   {
     icon: <FiGithub />,
     href: 'http://github.com/rashidovDev',
   },
   {
-    icon: <FaTelegram />,
-    href: 'http://github.com/rashidovDev',
+    icon: <FaLinkedin />,
+    href: 'https:linkedin.com/in/anvarrashidov17',
   },
-
+  {
+    icon: <FaTelegram />,
+    href: 'http://t.me/anvar_rashidov',
+  },
 ];
 
 // projects
@@ -93,44 +95,50 @@ export const projectsData = [
   {
     id: '1',
     image: Project1,
-    title: "Here you can explore all of the coins and this project works online",
-    name: 'Crypto Currency',
-    category: 'with API',
+    title: "Redux,Redux toolkit,Tailwind",
+    name: "Zo'rFastfood.uz",
+    category: 'NextJS',
+    href : "https://zorfastfooduz.netlify.app"
   },
   {
     id: '2',
     image: Project2,
-    title: "Here you can implement some calculation without difficulties ",
-    name: 'Calculator',
-    category: 'javascript',
+    title: "Typescript,React-Redux",
+    name: 'Dtm-clone',
+    category: 'Typescript',
+    href : "https://dtmuzz.netlify.app/"
   },
   {
     id: '3',
     image: Project3,
-    title: "Here you have opportunity to buy something",
-    name: 'Ecommerce',
-    category: 'branding',
+    title: "React,Weather API",
+    name: 'Weather',
+    category: 'ReactJS',
+    href : "http://weather-rashidov.netlify.app"
   },
   {
     id: '4',
     image: Project4,
-    title: "Here you can have an information about me and my skills",
-    name: 'Portfolio',
+    title: "React,React-Redux,Bootstrap",
+    name: 'ShoppingUz',
     category: "javascript",
+    href : "https://rashidovshop.netlify.app/"
   },
   {
     id: '5',
     image: Project5,
-    title: "Here you can buy something ",
-    name: 'Shopping',
-    category: 'branding',
+    title: "NextJS,Reactstrap",
+    name: 'Portfolio',
+    category: 'NextJS',
+    href : "http://myportrashidov.netlify.app"
   },
   {
     id: '6',
     image: Project6,
-    title: "Here you can have an information about weather all of the sides of the world",
-    name: 'Weather',
-    category: 'with API',
+    title: "React, React Hooks",
+    name: 'Calculator',
+    category: 'ReactJS',
+    href : "http://calculator-rashidov.netlify.app"
   },
 ];
 
@@ -140,13 +148,13 @@ export const projectsNav = [
     name: 'all',
   },
   {
-    name: 'with API',
+    name: 'ReactJS',
   },
   {
-    name: 'javascript',
+    name: 'NextJS',
   },
   {
-    name: 'branding',
+    name: 'Typescript',
   },
 ];
 
@@ -213,6 +221,12 @@ export const services = [
     name: 'Socialism',
     description:
       'I am social person and I get on with team without complication ',
+  },
+  {
+    icon: <RiEnglishInput/>,
+    name: 'Polyglot',
+    description:
+      'I have a pretty knowledge in English and I have a good communication skills',
   }
 ];
 
