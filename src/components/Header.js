@@ -23,7 +23,7 @@ const Header = () => {
       <div className='container mx-auto h-full flex items-center justify-between'>
         {/* logo */}
         <a href='/'>
-          <h1 className='text-3xl italic'>My PortFolio</h1>
+          <h1 className='text-3xl bold logo'>rashidov<span style={{color:"#AC6B34"}}>Dev</span></h1>
         </a>
         {/* nav */}
         <div className='hidden lg:block'>
