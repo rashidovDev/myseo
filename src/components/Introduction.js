@@ -1,8 +1,6 @@
 import React from 'react';
-
 // import woman image
 import portfolio from '../assets/img/portfolio2.jpg';
-
 
 const Hero = () => {
   return (

@@ -100,7 +100,7 @@ export const projectsData = [
     title: "Typescript,MUI,API",
     name: "Youtube-Clone",
     category: 'Typescript',
-    href : "https:/youtube-rashidov.netlify.app"
+    href : "https://youtube-rashidov.netlify.app"
   },
   {
     id: '3',
