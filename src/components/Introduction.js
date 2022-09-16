@@ -16,7 +16,7 @@ const Hero = () => {
             <p className='text-4xl text-accent text-md mb-[22px] '>
               Hi there, I am Anvar
             </p>
-            <h1 className='text-4xl leading-[44px] md:text-5xl md:leading-tight lg:text-7xl lg:leading-[1.2] font-bold md:tracking-[-2px] mb-7'>
+            <h1 className='text-4xl leading-[44px] md:text-5xl md:leading-tight lg:text-7xl lg:leading-[1.2] font-bold md:tracking-[-2px] mb-7 text-center'>
               I am Frontend <br />Developer 
             </h1>
             <a href='http://t.me/anvar_rashidov' className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all rounded-[12px] cursor-pointer'>

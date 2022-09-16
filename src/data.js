@@ -21,6 +21,7 @@ import {
 
 // projects images
 import Project1 from './assets/img/projects/zorfastfood.jpg';
+import Project7 from './assets/img/projects/youtube.jpg';
 import Project2 from './assets/img/projects/dtm.jpg';
 import Project3 from './assets/img/projects/weatherr.jpg';
 import Project4 from './assets/img/projects/shoppinguz.jpg';
@@ -95,6 +96,14 @@ export const projectsData = [
   },
   {
     id: '2',
+    image: Project7,
+    title: "Typescript,MUI,API",
+    name: "Youtube-Clone",
+    category: 'Typescript',
+    href : "https:/youtube-rashidov.netlify.app"
+  },
+  {
+    id: '3',
     image: Project2,
     title: "Typescript,React-Redux",
     name: 'Dtm-clone',
@@ -102,7 +111,7 @@ export const projectsData = [
     href : "https://dtmuzz.netlify.app/"
   },
   {
-    id: '3',
+    id: '4',
     image: Project3,
     title: "React,Weather API",
     name: 'Weather',
@@ -110,7 +119,7 @@ export const projectsData = [
     href : "http://weather-rashidov.netlify.app"
   },
   {
-    id: '4',
+    id: '5',
     image: Project4,
     title: "React,React-Redux,Bootstrap",
     name: 'ShoppingUz',
@@ -118,7 +127,7 @@ export const projectsData = [
     href : "https://rashidovshop.netlify.app/"
   },
   {
-    id: '5',
+    id: '6',
     image: Project5,
     title: "NextJS,Reactstrap",
     name: 'Portfolio',
@@ -126,7 +135,7 @@ export const projectsData = [
     href : "http://myportrashidov.netlify.app"
   },
   {
-    id: '6',
+    id: '7',
     image: Project6,
     title: "React, React Hooks",
     name: 'Calculator',
