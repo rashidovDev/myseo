@@ -7,7 +7,7 @@ const About = () => {
       <div className='container mx-auto align-center'>
         <div className='flex flex-col xl:flex-row gap-24 items-center'>
           <img
-            className='object-cover w-[566px] md:mx-auto lg:mx-0 rounded-2xl h-[550px]'
+            className='object-cover w-[566px] md:mx-auto lg:mx-0 rounded-2xl h-[500px]'
             src={portfolio}
             alt=''
           />
@@ -17,7 +17,7 @@ const About = () => {
                 Anvar Rashidov
               </h2>
               <p className='mb-4 text-accent'>
-                Freelance Frontend Web Developer
+                Frontend Developer
               </p>
               <hr className='mb-8 opacity-5' />
               <p className='mb-8 p-8 text-justify'>
