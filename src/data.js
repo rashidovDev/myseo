@@ -76,7 +76,7 @@ export const social = [
   },
   {
     icon: <FaLinkedin />,
-    href: 'https:linkedin.com/in/anvarrashidov17',
+    href: 'http://www.linkedin.com/in/anvarrashidov',
   },
   {
     icon: <FaTelegram />,
