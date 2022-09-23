@@ -51,6 +51,7 @@
 .frame{
   width: 100%;
   position: relative;
+  transition: 0.5s ease;
 }
 .frame img{
  transition: 0.5s ease;
@@ -66,14 +67,14 @@
   opacity: 1;
 }
 .frame:hover{
-  opacity: 0.5;
+  opacity: 0.6;
 }
 .buttonclass a{
   cursor: pointer;
   border-radius: 10px;
   color: #fff;
   margin-left: 10px;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.4);
   padding: 2px 10px;
   font-weight: bold;
   border: 2px solid rgb(247, 246, 246);
