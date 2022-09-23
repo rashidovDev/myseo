@@ -48,3 +48,37 @@
     @apply text-accent;
   }
 }
+.frame{
+  width: 100%;
+  position: relative;
+}
+.frame img{
+ transition: 0.5s ease;
+}
+.frame .buttonclass{
+  position: absolute;
+  bottom: 20px;
+  left: 40px;
+  opacity: 0;
+  transition: 0.5s ease;
+}
+.frame:hover .buttonclass{
+  opacity: 1;
+}
+.frame:hover{
+  opacity: 0.9;
+}
+.buttonclass a{
+  cursor: pointer;
+  border-radius: 10px;
+  color: #fff;
+  margin-left: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 2px 10px;
+  font-weight: bold;
+  border: 2px solid rgb(247, 246, 246);
+  z-index: 99;
+}
+.buttonclass a:hover{
+  opacity: 0.8;
+}

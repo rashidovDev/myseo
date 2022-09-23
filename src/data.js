@@ -92,7 +92,8 @@ export const projectsData = [
     title: "Redux,Redux toolkit,Tailwind",
     name: "Zo'rFastfood.uz",
     category: 'NextJS',
-    href : "https://zorfastfooduz.netlify.app"
+    href : "https://zorfastfooduz.netlify.app",
+    code : "https://github.com/rashidovDev/Zo-rFastFood.uz"
   },
   {
     id: '2',
@@ -100,7 +101,8 @@ export const projectsData = [
     title: "Typescript,MUI,API",
     name: "Youtube-Clone",
     category: 'Typescript',
-    href : "https://youtube-rashidov.netlify.app"
+    href : "https://youtube-rashidov.netlify.app",
+    code : "https://github.com/rashidovDev/Youtube-Clone"
   },
   {
     id: '3',
@@ -108,7 +110,8 @@ export const projectsData = [
     title: "Typescript,React-Redux",
     name: 'Dtm-clone',
     category: 'Typescript',
-    href : "https://dtmuzz.netlify.app/"
+    href : "https://dtmuzz.netlify.app/",
+    code : "https://github.com/rashidovDev/DTM-clone"
   },
   {
     id: '4',
@@ -116,7 +119,8 @@ export const projectsData = [
     title: "React,Weather API",
     name: 'Weather',
     category: 'ReactJS',
-    href : "http://weather-rashidov.netlify.app"
+    href : "http://weather-rashidov.netlify.app",
+    code : "https://github.com/rashidovDev/Weather"
   },
   {
     id: '5',
@@ -124,7 +128,8 @@ export const projectsData = [
     title: "React,React-Redux,Bootstrap",
     name: 'ShoppingUz',
     category: "javascript",
-    href : "https://rashidovshop.netlify.app/"
+    href : "https://rashidovshop.netlify.app/",
+    code : "https://github.com/rashidovDev/shop-online"
   },
   {
     id: '6',
@@ -132,7 +137,8 @@ export const projectsData = [
     title: "NextJS,Reactstrap",
     name: 'Portfolio',
     category: 'NextJS',
-    href : "http://myportrashidov.netlify.app"
+    href : "http://myportrashidov.netlify.app",
+    code : "https://github.com/rashidovDev/myportfolio"
   },
   {
     id: '7',
@@ -140,7 +146,8 @@ export const projectsData = [
     title: "React, React Hooks",
     name: 'Calculator',
     category: 'ReactJS',
-    href : "http://calculator-rashidov.netlify.app"
+    href : "http://calculator-rashidov.netlify.app",
+    code : "https://github.com/rashidovDev/MERN-todo-list"
   },
 ];
 
