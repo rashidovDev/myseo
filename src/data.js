@@ -27,6 +27,7 @@ import Project3 from './assets/img/projects/weatherr.jpg';
 import Project4 from './assets/img/projects/shoppinguz.jpg';
 import Project5 from './assets/img/projects/myportfolio.jpg';
 import Project6 from './assets/img/projects/calculatorr.jpg';
+import Project8 from "./assets/img/projects/mern.jpg"
 
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png';
@@ -97,6 +98,16 @@ export const projectsData = [
   },
   {
     id: '2',
+    image: Project8,
+    title: "React,Context,Express,MongoDb",
+    name: "Zo'rFastfood.uz",
+    category: 'MERN',
+    href : "https://todo-mern7.netlify.app/",
+    code : "https://github.com/rashidovDev/Client-side"
+  },
+
+  {
+    id: '3',
     image: Project7,
     title: "Typescript,MUI,API",
     name: "Youtube-Clone",
@@ -105,7 +116,7 @@ export const projectsData = [
     code : "https://github.com/rashidovDev/Youtube-Clone"
   },
   {
-    id: '3',
+    id: '4',
     image: Project2,
     title: "Typescript,React-Redux",
     name: 'Dtm-clone',
@@ -114,22 +125,13 @@ export const projectsData = [
     code : "https://github.com/rashidovDev/DTM-clone"
   },
   {
-    id: '4',
+    id: '5',
     image: Project3,
     title: "React,Weather API",
     name: 'Weather',
     category: 'ReactJS',
     href : "http://weather-rashidov.netlify.app",
     code : "https://github.com/rashidovDev/Weather"
-  },
-  {
-    id: '5',
-    image: Project4,
-    title: "React,React-Redux,Bootstrap",
-    name: 'ShoppingUz',
-    category: "javascript",
-    href : "https://rashidovshop.netlify.app/",
-    code : "https://github.com/rashidovDev/shop-online"
   },
   {
     id: '6',
@@ -142,6 +144,16 @@ export const projectsData = [
   },
   {
     id: '7',
+    image: Project4,
+    title: "React,React-Redux,Bootstrap",
+    name: 'ShoppingUz',
+    category: "javascript",
+    href : "https://rashidovshop.netlify.app/",
+    code : "https://github.com/rashidovDev/shop-online"
+  },
+ 
+  {
+    id: '8',
     image: Project6,
     title: "React, React Hooks",
     name: 'Calculator',
@@ -164,6 +176,9 @@ export const projectsNav = [
   },
   {
     name: 'Typescript',
+  },
+  {
+    name: 'MERN',
   },
 ];
 
