@@ -99,7 +99,7 @@ export const projectsData = [
   {
     id: '2',
     image: Project8,
-    title: "React,Context,Express,MongoDb,Pagination",
+    title: "React,Pagination,Express,MongoDb",
     name: "MERN-TODO",
     category: 'MERN',
     href : "https://todo-mern7.netlify.app/",
