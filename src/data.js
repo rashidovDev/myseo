@@ -100,8 +100,8 @@ export const projectsData = [
     id: '2',
     image: Project8,
     title: "React,Context,Express,MongoDb,Pagination",
-    name: "Zo'rFastfood.uz",
-    category: 'MERN-TODO',
+    name: "MERN-TODO",
+    category: 'MERN',
     href : "https://todo-mern7.netlify.app/",
     code : "https://github.com/rashidovDev/Client-side"
   },
