@@ -93,7 +93,7 @@ export const projectsData = [
     title: "Redux,Redux toolkit,Tailwind",
     name: "Zo'rFastfood.uz",
     category: 'NextJS',
-    href : "https://zorfastfooduz.netlify.app",
+    href : "https://zo-r-fast-food-uz.vercel.app",
     code : "https://github.com/rashidovDev/Zo-rFastFood.uz"
   },
   {
