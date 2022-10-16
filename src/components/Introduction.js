@@ -10,7 +10,7 @@ const Hero = () => {
     >
       <div className='container mx-auto h-full '>
         <div className='flex items-center h-full align-center  pt-8'>
-          <div className=' flex-1 flex flex-col items-center lg:items-start'>
+          <div className='flex-1 flex flex-col items-center lg:items-start '>
             <p className='text-4xl text-accent text-md mb-[22px]'>
               Hi there, I am Anvar
             </p>
@@ -22,7 +22,7 @@ const Hero = () => {
             </a>
           </div>
           <div className='hidden lg:flex flex-1 items-center h-full'>
-            <img src={portfolio} alt="Just me" className='w-80 h-96 rounded-[8px]' />
+            <img src={portfolio} alt="Just me" className='w-80 h-96 rounded-[8px] lg:ml-24' />
           </div>
         </div>
       </div>

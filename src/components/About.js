@@ -7,7 +7,7 @@ const About = () => {
       <div className='container mx-auto align-center'>
         <div className='flex flex-col xl:flex-row gap-24 items-center'>
           <img
-            className='object-cover w-[566px] md:mx-auto lg:mx-0 rounded-2xl h-[500px]'
+            className='object-cover w-[566px] md:mx-auto lg:mx-0 rounded-2xl md:h-[500px] h-[400px] '
             src={portfolio}
             alt=''
           />
