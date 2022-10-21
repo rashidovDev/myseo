@@ -28,6 +28,7 @@ import Project4 from './assets/img/projects/shoppinguz.jpg';
 import Project5 from './assets/img/projects/myportfolio.jpg';
 import Project6 from './assets/img/projects/calculatorr.jpg';
 import Project8 from "./assets/img/projects/mern.jpg"
+import Project9 from "./assets/img/projects/commerc.jpg"
 
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png';
@@ -126,6 +127,15 @@ export const projectsData = [
   },
   {
     id: '5',
+    image: Project9,
+    title: "React,Typescript,Redux,Tailwind",
+    name: "Commerce",
+    category: 'Typescript',
+    href : "https://commerce-rashidov.netlify.app",
+    code : "https://github.com/rashidovDev/scientech"
+  },
+  {
+    id: '6',
     image: Project3,
     title: "React,Weather API",
     name: 'Weather',
@@ -134,7 +144,7 @@ export const projectsData = [
     code : "https://github.com/rashidovDev/Weather"
   },
   {
-    id: '6',
+    id: '7',
     image: Project5,
     title: "NextJS,Reactstrap",
     name: 'Portfolio',
@@ -143,7 +153,7 @@ export const projectsData = [
     code : "https://github.com/rashidovDev/myportfolio"
   },
   {
-    id: '7',
+    id: '8',
     image: Project4,
     title: "React,React-Redux,Bootstrap",
     name: 'ShoppingUz',
@@ -153,7 +163,7 @@ export const projectsData = [
   },
  
   {
-    id: '8',
+    id: '9',
     image: Project6,
     title: "React, React Hooks",
     name: 'Calculator',
