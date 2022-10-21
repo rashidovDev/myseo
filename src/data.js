@@ -29,6 +29,7 @@ import Project5 from './assets/img/projects/myportfolio.jpg';
 import Project6 from './assets/img/projects/calculatorr.jpg';
 import Project8 from "./assets/img/projects/mern.jpg"
 import Project9 from "./assets/img/projects/commerc.jpg"
+import Project10 from "./assets/img/projects/asaxiy.jpg"
 
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png';
@@ -88,6 +89,15 @@ export const social = [
 
 // projects
 export const projectsData = [
+  {
+    id: '10',
+    image: Project10,
+    title: "Typescript,Redux,Tailwind",
+    name: "Asaxiy-Clone",
+    category: 'Typescript',
+    href : "https://asaxiy-rashidovdev.netlify.app",
+    code : "https://github.com/rashidovDev/Zo-rFastFood.uz"
+  },
   {
     id: '1',
     image: Project1,
