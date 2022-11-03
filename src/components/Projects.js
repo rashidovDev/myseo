@@ -42,7 +42,7 @@ const Projects = () => {
                 }}
                 className={`${
                   active === index ? 'active' : ''
-                } cursor-pointer capitalize m-4`}
+                } cursor-pointer capitalize m-3`}
                 key={index}
               >
                 {item.name}

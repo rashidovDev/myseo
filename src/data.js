@@ -28,8 +28,8 @@ import Project4 from './assets/img/projects/shoppinguz.jpg';
 import Project5 from './assets/img/projects/myportfolio.jpg';
 import Project6 from './assets/img/projects/calculatorr.jpg';
 import Project8 from "./assets/img/projects/mern.jpg"
-import Project9 from "./assets/img/projects/commerc.jpg"
-import Project10 from "./assets/img/projects/asaxiy.jpg"
+import Project9 from "./assets/img/projects/commerc.jpg"  
+import Project10 from "./assets/img/projects/asaxiy1.jpg"
 
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png';
@@ -45,7 +45,6 @@ import SkillImg10 from './assets/img/skills/git.png';
 import SkillImg11 from './assets/img/skills/nodejs.png';
 import SkillImg12 from './assets/img/skills/expressjs.png';
 import SkillImg13 from './assets/img/skills/mongodb.png';
-
 
 // navigation
 export const navigation = [
@@ -116,7 +115,6 @@ export const projectsData = [
     href : "https://todo-mern7.netlify.app/",
     code : "https://github.com/rashidovDev/Client-side"
   },
-
   {
     id: '3',
     image: Project7,

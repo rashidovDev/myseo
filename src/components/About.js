@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section className='section bg-secondary' id='about'>
       <div className='container mx-auto align-center'>
-        <div className='flex flex-col xl:flex-row gap-24 items-center'>
+        <div className='flex flex-col xl:flex-row md:gap-24 gap-2 items-center'>
           <img
             className='object-cover w-[566px] md:mx-auto lg:mx-0 rounded-2xl md:h-[500px] h-[400px] '
             src={portfolio}
@@ -13,16 +13,19 @@ const About = () => {
           />
           <div className='flex flex-col items-center text-center lg:items-start lg:text-left'>
             <div className='flex flex-col'>
-              <h2 className='text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3 before:content-about  relative before:absolute before:opacity-40 before:-top-[2rem] before:hidden before:lg:block italic'>
+              <div className='hidden md:inline'>
+              <h2 className='text-3xl lg:text-4xl md:inline font-medium lg:font-extrabold mb-3 before:content-about  
+              relative before:absolute before:opacity-40 before:-top-[2rem] before:hidden before:lg:block italic'>
                 Anvar Rashidov
               </h2>
               <p className='mb-4 text-accent'>
                 Frontend Developer
               </p>
+              </div>
               <hr className='mb-8 opacity-5' />
-              <p className='mb-8 p-8 text-justify'>
+              <p className='mb-8 p-2 text-justify'>
                 Hi, My name is Anvar and I'm a frontend developer.
-                Currently I'm student at Tashkent University of information technoligies but this year I'll graduate
+                Recently I graduated 
                 from university.Actually I've been improving my coding
                 skills more than 1 year and I know several knowledge well
                 when it comes to this.Now I chiefly focus on creating some
