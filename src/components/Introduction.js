@@ -1,5 +1,4 @@
-import React from 'react';
-// import woman image
+  import React from 'react';
 import portfolio from '../assets/img/portfolio2.jpg';
 // import Fade from 'react-reveal/Fade';
 
@@ -14,8 +13,7 @@ const Hero = () => {
           <div className='flex-1 flex-col items-center lg:items-start '>
             <p className='text-5xl text-center text-accent text-md mb-[22px]'>
               Hi there, I am Anvar
-            </p>
-           
+            </p> 
             <h1 className='text-4xl leading-[44px] md:text-center md:text-5xl md:leading-tight lg:text-7xl lg:leading-[1.2] font-bold md:tracking-[-2px] mb-7 text-center'>
               I am Frontend <br />Developer 
             </h1>

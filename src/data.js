@@ -30,6 +30,7 @@ import Project6 from './assets/img/projects/calculatorr.jpg';
 import Project8 from "./assets/img/projects/mern.jpg"
 import Project9 from "./assets/img/projects/commerc.jpg"  
 import Project10 from "./assets/img/projects/asaxiy1.jpg"
+import Project11 from "./assets/img/projects/bookshelf.jpg"
 
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png';
@@ -132,6 +133,15 @@ export const projectsData = [
     category: 'Typescript',
     href : "https://dtmuzz.netlify.app/",
     code : "https://github.com/rashidovDev/DTM-clone"
+  },
+  {
+    id: '11',
+    image: Project11,
+    title: "Typescript,Redux,REST API,MUI",
+    name: "BookShelf",
+    category: 'Typescript',
+    href : "https://rashidov-bookshelf.netlify.app",
+    code : "https://github.com/rashidovDev/BookShelf"
   },
   {
     id: '5',
