@@ -12,7 +12,6 @@ import BackTopBtn from './components/BackTopBtn';
 
 const App = () => {
   const [loading, setLoading] = useState(false)
-
   useEffect(() => {
     setLoading(true) 
       setTimeout(() => {

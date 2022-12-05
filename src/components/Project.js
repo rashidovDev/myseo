@@ -3,7 +3,7 @@ import React from 'react';
 const Project = ({ item }) => {
   return (
     <div key={item.id} className='flex flex-col items-center text-center'>
-      <a href={item.href}>
+      <a href={item.href} target="_blank" rel="noreferrer" >
       <div className='mb-8 frame'>
         <img className='rounded-2xl pro' src={item.image} alt='imag' width={250} height={300} />
         <div className='buttonclass'>
