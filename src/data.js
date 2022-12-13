@@ -31,7 +31,7 @@ import Project8 from "./assets/img/projects/mern.jpg"
 import Project9 from "./assets/img/projects/commerc.jpg"  
 import Project10 from "./assets/img/projects/asaxiy1.jpg"
 import Project11 from "./assets/img/projects/bookshelf.jpg"
-
+import Project12 from "./assets/img/projects/airfel.jpg"
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png';
 import SkillImg2 from './assets/img/skills/css3.png';
@@ -71,7 +71,7 @@ export const navigation = [
 export const social = [
   {
     icon: <FiInstagram />,
-    href: 'http://instagram.com/rashidov_dev',
+    // href: 'http://instagram.com/rashidov_dev',
   },
   {
     icon: <FiGithub />,
@@ -89,6 +89,16 @@ export const social = [
 
 // projects
 export const projectsData = [
+  {
+    id: '10',
+    image: Project12,
+    title: "React,Redux,Bootstrap",
+    name: "Airfel.smsfly.uz",
+    category: 'Real Projects',
+    href : "https://airfel.smsfly.uz",
+    code : "https://github.com/rashidovDev/Zo-rFastFood.uz"
+  },
+  
   {
     id: '10',
     image: Project10,
@@ -208,6 +218,9 @@ export const projectsNav = [
   {
     name: 'MERN',
   },
+  {
+    name: "Real projects"
+  }
 ];
 
 // skill
