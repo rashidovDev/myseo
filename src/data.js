@@ -1,9 +1,7 @@
 //  icons
 import {
-  
   FiInstagram,
   FiGithub,
-  
   FiLayout,
   FiSettings,
   FiPenTool,
@@ -12,12 +10,10 @@ import {
 } from 'react-icons/fi';
 
 import {RiEnglishInput} from "react-icons/ri"; 
-
 import {
   FaLinkedin,
   FaTelegram
 } from "react-icons/fa"
-
 
 // projects images
 import Project1 from './assets/img/projects/zorfastfood.jpg';
@@ -98,7 +94,6 @@ export const projectsData = [
     href : "https://airfel.smsfly.uz",
     code : "https://github.com/rashidovDev/Zo-rFastFood.uz"
   },
-  
   {
     id: '10',
     image: Project10,

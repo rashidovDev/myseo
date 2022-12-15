@@ -16,7 +16,7 @@ const App = () => {
     setLoading(true) 
       setTimeout(() => {
          setLoading(false)
-      },2500)
+      },2400)
   },[])
   return (
     <>
@@ -37,7 +37,6 @@ const App = () => {
       <BackTopBtn />
     </div>
     }
-     
     </>
   );
 };
