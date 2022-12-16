@@ -85,15 +85,15 @@ export const social = [
 
 // projects
 export const projectsData = [
-  {
-    id: '10',
-    image: Project12,
-    title: "React,Redux,Bootstrap",
-    name: "Airfel.smsfly.uz",
-    category: 'Real Projects',
-    href : "https://airfel.smsfly.uz",
-    code : "https://github.com/rashidovDev/Zo-rFastFood.uz"
-  },
+  // {
+  //   id: '10',
+  //   image: Project12,
+  //   title: "React,Redux,Bootstrap",
+  //   name: "Airfel.smsfly.uz",
+  //   category: 'Real Projects',
+  //   href : "https://airfel.smsfly.uz",
+  //   code : "https://github.com/rashidovDev/Zo-rFastFood.uz"
+  // },
   {
     id: '10',
     image: Project10,
