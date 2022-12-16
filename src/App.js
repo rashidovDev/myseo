@@ -18,6 +18,7 @@ const App = () => {
          setLoading(false)
       },2400)
   },[])
+  
   return (
     <>
     {
