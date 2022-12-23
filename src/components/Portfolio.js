@@ -7,12 +7,13 @@ const Portfolio = () => {
   return (
     <section id='portfolio' className='section bg-primary min-h-[1400px]'>
       <div className='container mx-auto'>
+        <h1>There are a number of projects and you can seeit below</h1>
         <div className='flex flex-col items-center text-center'>
           <h2 className='section-title before:content-portfolio relative before:absolute before:opacity-40 before:-top-[2rem] before:-left-3/4 before:hidden before:lg:block italic text-5xl'>
             My Projects
           </h2>
           <p className='subtitle text-xl'>
-            Frankly speaking, I created a number of projects and you can see them below
+            Frankly speaking, I created a number of projects in my experience and you can see them below
           </p>
         </div>
         <Projects />
@@ -22,3 +23,9 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
+
+
+
+
+
+    
