@@ -28,6 +28,7 @@ import Project9 from "./assets/img/projects/commerc.jpg"
 import Project10 from "./assets/img/projects/asaxiy1.jpg"
 import Project11 from "./assets/img/projects/bookshelf.jpg"
 import Project12 from "./assets/img/projects/airfel.jpg"
+import Project13 from "./assets/img/projects/todo.jpg"
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png';
 import SkillImg2 from './assets/img/skills/css3.png';
@@ -86,7 +87,7 @@ export const social = [
 // projects
 export const projectsData = [
   {
-    id: '10',
+    id: '15',
     image: Project12,
     title: "React,Redux,Bootstrap",
     name: "Airfel.smsfly.uz",
@@ -111,6 +112,15 @@ export const projectsData = [
     category: 'NextJS',
     href : "https://zo-r-fast-food-uz.vercel.app",
     code : "https://github.com/rashidovDev/Zo-rFastFood.uz"
+  },
+  {
+    id: '16',
+    image: Project13,
+    title: "React,Redux,Tailwind,MUI",
+    name: "TodoApp",
+    category: 'ReactJS',
+    href : "https://todolist-rashidovdev.netlify.app/",
+    code : "https://github.com/rashidovDev/todo-app"
   },
   {
     id: '2',
@@ -180,7 +190,7 @@ export const projectsData = [
     image: Project4,
     title: "React,React-Redux,Bootstrap",
     name: 'ShoppingUz',
-    category: "javascript",
+    category: "ReactJS",
     href : "https://rashidovshop.netlify.app/",
     code : "https://github.com/rashidovDev/shop-online"
   },
