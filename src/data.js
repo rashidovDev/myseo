@@ -29,6 +29,7 @@ import Project10 from "./assets/img/projects/asaxiy1.jpg"
 import Project11 from "./assets/img/projects/bookshelf.jpg"
 import Project12 from "./assets/img/projects/airfel.jpg"
 import Project13 from "./assets/img/projects/todo.jpg"
+import Project14 from "./assets/img/projects/posts.jpg"
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png';
 import SkillImg2 from './assets/img/skills/css3.png';
@@ -43,6 +44,7 @@ import SkillImg10 from './assets/img/skills/git.png';
 import SkillImg11 from './assets/img/skills/nodejs.png';
 import SkillImg12 from './assets/img/skills/expressjs.png';
 import SkillImg13 from './assets/img/skills/mongodb.png';
+
 
 // navigation
 export const navigation = [
@@ -157,6 +159,15 @@ export const projectsData = [
     category: 'Typescript',
     href : "https://rashidov-bookshelf.netlify.app",
     code : "https://github.com/rashidovDev/BookShelf"
+  },
+  {
+    id: '16',
+    image: Project14,
+    title: "React,Redux toolkit,Tailwind",
+    name: "Posts",
+    category: 'ReactJS',
+    href : "https://postodo.netlify.app",
+    code : "https://github.com/rashidovDev/justreinforceskills"
   },
   {
     id: '5',
