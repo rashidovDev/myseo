@@ -18,7 +18,7 @@ const Footer = () => {
             })}
           </div>
           <p className='text-paragraph opacity-80 text-[15px] text-2xl text-center'>
-            &copy;2022 Anvar Rashidov. All rights reserved.
+            &copy;2023 Anvar Rashidov. All rights reserved.
           </p>
         </div>
       </div>
