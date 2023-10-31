@@ -10,9 +10,6 @@ const Portfolio = () => {
           <h2 className='section-title before:content-portfolio relative before:absolute before:opacity-40 before:-top-[2rem] before:-left-3/4 before:hidden before:lg:block italic text-5xl'>
             My Projects
           </h2>
-          <p className='subtitle text-xl'>
-            Frankly speaking, I created a number of projects in my experience and you can see them below
-          </p>
         </div>
         <Projects />
       </div>

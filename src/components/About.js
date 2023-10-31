@@ -19,24 +19,12 @@ const About = () => {
                 Anvar Rashidov
               </h2>
               <p className='mb-4 text-accent'>
-                Frontend Developer
+                Web Developer
               </p>
               </div>
               <hr className='mb-8 opacity-5' />
               <p className='mb-8 p-2 text-justify'>
-                Hi, My name is Anvar and I'm a frontend developer.
-                Recently I graduated 
-                from university.Actually I've been improving my coding
-                skills more than 1 year and I know several knowledge well
-                when it comes to this.Now I chiefly focus on creating some
-                projects <br />
-                <br />
-                Generally speaking,I created some projects
-                in period of studying with my coursemates different
-                environment of IT. Hovewer, I was impressed by WEB
-                Applicatons therefore I was crazy this area.Today
-                I have several WEB projects and you can see them
-                on the below.
+              I'm a passionate Full Stack Developer with a deep love for JavaScript and a strong commitment to crafting elegant and efficient web solutions. I like being on a mission to bridge the gap between front-end and back-end development.With a strong background in JavaScript, I'm adept at creating responsive, user-friendly web applications.
               </p>
             </div>
             <a href='http://t.me/anvar_rashidov' className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all rounded-[12px] cursor-pointer'>

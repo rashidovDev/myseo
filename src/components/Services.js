@@ -12,7 +12,7 @@ const Services = () => {
             What I can recommend for clients
           </h2>
           <p className='subtitle'>
-            Actually, I have pretty high standarts when it comes to Frontend moreover 
+            Actually, I have pretty high standarts when it comes to Web development.Moreover 
             I can have qualification to work and support Backend part of the projects
           </p>
         </div>

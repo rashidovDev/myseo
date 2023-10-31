@@ -89,24 +89,6 @@ export const social = [
 // projects
 export const projectsData = [
   {
-    id: '15',
-    image: Project12,
-    title: "React,Redux,Bootstrap",
-    name: "Airfel.smsfly.uz",
-    category: 'Real Projects',
-    href : "https://airfel.smsfly.uz",
-    code : ""
-  },
-  {
-    id: '10',
-    image: Project10,
-    title: "Typescript,Redux,Tailwind",
-    name: "Asaxiy-Clone",
-    category: 'Typescript',
-    href : "https://asaxiy-rashidovdev.netlify.app",
-    code : "https://github.com/rashidovDev/Zo-rFastFood.uz"
-  },
-  {
     id: '1',
     image: Project1,
     title: "Redux,Redux toolkit,Tailwind",
@@ -116,20 +98,11 @@ export const projectsData = [
     code : "https://github.com/rashidovDev/Zo-rFastFood.uz"
   },
   {
-    id: '16',
-    image: Project13,
-    title: "React,Redux,Tailwind,MUI",
-    name: "TodoApp",
-    category: 'ReactJS',
-    href : "https://todolist-rashidovdev.netlify.app/",
-    code : "https://github.com/rashidovDev/todo-app"
-  },
-  {
     id: '2',
     image: Project8,
     title: "React,Pagination,Express,MongoDb",
     name: "MERN-TODO",
-    category: 'MERN',
+    category: 'ReactJS',
     href : "https://todo-mern7.netlify.app/",
     code : "https://github.com/rashidovDev/Client-side"
   },
@@ -150,24 +123,6 @@ export const projectsData = [
     category: 'Typescript',
     href : "https://dtmuzz.netlify.app/",
     code : "https://github.com/rashidovDev/DTM-clone"
-  },
-  {
-    id: '11',
-    image: Project11,
-    title: "Typescript,Redux,REST API,MUI",
-    name: "BookShelf",
-    category: 'Typescript',
-    href : "https://rashidov-bookshelf.netlify.app",
-    code : "https://github.com/rashidovDev/BookShelf"
-  },
-  {
-    id: '16',
-    image: Project14,
-    title: "React,Redux toolkit,Tailwind",
-    name: "Posts",
-    category: 'ReactJS',
-    href : "https://postodo.netlify.app",
-    code : "https://github.com/rashidovDev/justreinforceskills"
   },
   {
     id: '5',
@@ -215,6 +170,54 @@ export const projectsData = [
     href : "http://calculator-rashidov.netlify.app",
     code : "https://github.com/rashidovDev/MERN-todo-list"
   },
+  {
+    id: '10',
+    image: Project10,
+    title: "Typescript,Redux,Tailwind",
+    name: "Asaxiy-Clone",
+    category: 'Typescript',
+    href : "https://asaxiy-rashidovdev.netlify.app",
+    code : "https://github.com/rashidovDev/Zo-rFastFood.uz"
+  },
+  {
+    id: '11',
+    image: Project11,
+    title: "Typescript,Redux,REST API,MUI",
+    name: "BookShelf",
+    category: 'Typescript',
+    href : "https://rashidov-bookshelf.netlify.app",
+    code : "https://github.com/rashidovDev/BookShelf"
+  },
+  {
+    id: '12',
+    image: Project12,
+    title: "React,Redux,Bootstrap",
+    name: "Airfel.smsfly.uz",
+    category: 'ReactJS',
+    href : "https://airfel.smsfly.uz",
+    code : ""
+  },
+  {
+    id: '13',
+    image: Project13,
+    title: "React,Redux,Tailwind,MUI",
+    name: "TodoApp",
+    category: 'ReactJS',
+    href : "https://todolist-rashidovdev.netlify.app/",
+    code : "https://github.com/rashidovDev/todo-app"
+  },
+ 
+  
+  {
+    id: '14',
+    image: Project14,
+    title: "React,Redux toolkit,Tailwind",
+    name: "Posts",
+    category: 'ReactJS',
+    href : "https://postodo.netlify.app",
+    code : "https://github.com/rashidovDev/justreinforceskills"
+  },
+ 
 ];
 
 // projects
@@ -230,12 +233,6 @@ export const projectsNav = [
   },
   {
     name: 'Typescript',
-  },
-  {
-    name: 'MERN',
-  },
-  {
-    name: "Real projects"
   }
 ];
 
