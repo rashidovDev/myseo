@@ -14,7 +14,7 @@ const Projects = ({item}) => {
 
   return (
     <div className='my-10 pb-10 md:pb-0 border-b-2 border-slate-600 relative
-    md:flex md:justify-between '>
+    md:flex md:justify-between'>
       <div className='md:w-[48%] w-full'>
         
       <div className='md:mb-[40px] mb-[40px]'>
@@ -60,13 +60,13 @@ const Projects = ({item}) => {
             className='text-[16px] text-[blue] cursor-pointer'>{item.projectURL}</a>
           </div>
         </div>
-        <div className='md:mb-[40px] md:ml-5'>
+        {/* <div className='md:mb-[40px] md:ml-5'>
           <h2 className='font-bold text-[22px]'>Github Link</h2>
           <div className='my-2'>
             <a href={item.projectURL}
              className='text-[16px] text-[blue] cursor-pointer'>{item.githubURL}</a>
           </div>
-        </div>
+        </div> */}
        </div>
 
       </div>

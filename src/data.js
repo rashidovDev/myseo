@@ -40,6 +40,32 @@ import tezkor4 from './assets/project/tezkor24/tezkor4.png'
 import tezkor5 from './assets/project/tezkor24/tezkor5.png'
 import tezkor6 from './assets/project/tezkor24/tezkor6.png'
 
+import airfel1 from './assets/project/Airfel/airfel1.png'
+import airfel2 from './assets/project/Airfel/airfel2.png'
+import airfel3 from './assets/project/Airfel/airfel3.png'
+
+import asaxiy1 from './assets/project/Asaxiy/asaxiy1.png'
+import asaxiy2 from './assets/project/Asaxiy/asaxiy2.png'
+import asaxiy3 from './assets/project/Asaxiy/asaxiy3.png'
+import asaxiy4 from './assets/project/Asaxiy/asaxiy4.png'
+
+import zor1 from './assets/project/zor/zor1.png'
+import zor2 from './assets/project/zor/zor2.png'
+import zor3 from './assets/project/zor/zor3.png'
+import zor4 from './assets/project/zor/zor4.png'
+import zor5 from './assets/project/zor/zor5.png'
+
+import yu1 from './assets/project/youtube/yu1.png'
+import yu2 from './assets/project/youtube/yu2.png'
+import yu3 from './assets/project/youtube/yu3.png'
+import yu4 from './assets/project/youtube/yu4.png'
+
+import dtm1 from './assets/project/dtm/dtm1.png'
+import dtm2 from './assets/project/dtm/dtm2.png'
+import dtm3 from './assets/project/dtm/dtm3.png'
+import dtm4 from './assets/project/dtm/dtm4.png'
+import dtm5 from './assets/project/dtm/dtm5.png'
+
 // navigation
 export const navigation = [
   {
@@ -85,7 +111,8 @@ export const projectsData = [
 {
   id : 1,
   name : 'Tezkor24',
-  technology : "Node JS, Express JS, REST API, React JS, React Redux",
+  technology : `Node JS, Express JS, REST API, React JS, React query, React forms, 
+  React Redux, Tailwind css, Nodemailer, JWT Token`,
   description : `Tezkor24 is startup project on the fast and convenient 
   delivery service of food and fast food products in Tashkent. When it 
   comes to the project, I work on both the backend and frontend from 
@@ -129,47 +156,151 @@ export const projectsData = [
 },
 {
   id : 2,
-  name : 'Tezkor24',
-  technology : "Node JS, Express JS, REST API, React JS, React Redux",
-  description : `Tezkor24 is startup project on the fast and convenient 
-  delivery service of food and fast food products in Tashkent. When it 
-  comes to the project, I work on both the backend and frontend from 
-  scratch to cover more functionality of this project. To develop the Backend,
-  I used Express js to handle requests, and business logic and interact with 
-  the database. During the development process, there were small problems
-  such as implementing user authentication and authorization,
-  creating user roles etc. According to Frontend, I used React and 
-  some libraries such as Redux to develop user-friendly web application.
-  There is an admin panel that is only available for admins so far to monitor
-  important actions and receive information about order processes, customers,
-  couriers and also restaurants and their products as well.`,
-  projectURL : 'https://tezkor24.vercel.app/',
+  name : 'Airfel',
+  technology : `React JS, React Redux, Redux toolkit, React query,  JWT Token, Unit testing,
+   REST API, Sass, Bootstrap5`,
+  description : `Airfel is a Turkish company which sells air conditioners around the world.
+  We worked on develop Admin and Operator panel to monitor sales and other information in Uzbekistan. 
+   During development process
+  I was responsible for implementing various CRUD operations through receiving different kind of API.
+  Moreover we wrote unit test in order to contribute to the reliability and maintainability and
+  prevent unexpected errors in production.
+  `,
+  projectURL : 'https://airfel.com/',
   githubURL : 'https://tezkor24.vercel.app/',
   images : [
   {
     id : 1,
-    image : tezkor1
+    image : airfel1
   },
   {
     id : 2,
-    image : tezkor2
+    image : airfel2
   },
   {
     id : 3,
-    image : tezkor3
+    image : airfel3
+  }
+  ]
+},
+{
+  id : 3,
+  name : 'Asaxiy LLC',
+  technology : "React JS, Typescript, React Redux, Reduxt toolkit, Tailwind css, Material UI",
+  description : `In this project I built a clone of Asaxiy which is one of the popular ecommerce website in Uzbekistan.
+  In this project I used Typescript to handle and prevent unexpected errors which occurs with types and values.For state managemennt I used Redux toolkit
+  which is one of the popular react library and this project is fully user friendly as well`,
+  projectURL : 'https://asaxiy-rashidovdev.netlify.app/',
+  githubURL : 'https://tezkor24.vercel.app/',
+  images : [
+  {
+    id : 1,
+    image : asaxiy1
+  },
+  {
+    id : 2,
+    image : asaxiy2
+  },
+  {
+    id : 3,
+    image : asaxiy3
   },
   {
     id : 4,
-    image : tezkor4
+    image : asaxiy4
+  }
+  ]
+},
+{
+  id : 4,
+  name : 'Zorfastfood.uz',
+  technology : "React JS, React Redux, Reduxt toolkit Tailwind Css",
+  description : `In this project I built a website for Zorfastfood fastfood center. In this project I used React.For state management I used Redux toolkit
+  which is one of the popular react library and this project is fully user friendly as well.For using this application is very convenient 
+  for consumers to order different kinds of fastfood products`,
+  projectURL : 'https://zorfastfooduz.vercel.app/',
+  githubURL : 'https://tezkor24.vercel.app/',
+  images : [
+  {
+    id : 1,
+    image : zor1
+  },
+  {
+    id : 2,
+    image : zor2
+  },
+  {
+    id : 3,
+    image : zor3
+  },
+  {
+    id : 4,
+    image : zor4
   },
   {
     id : 5,
-    image : tezkor5
+    image : zor5
+  }
+  ]
+},
+{
+  id : 5,
+  name : 'My Youtube',
+  technology : "React JS, Typescript, React Redux, Tailwind Css, Material UI",
+  description : `In this project I built a my youtube which is specialised to work as 
+  how real Youtube works.You can watch any latest video you want without complication.
+  In this project, I used some free APIs to get latest youtube videos.
+  There is a search input and you can search any video or channel you want`,
+  projectURL : 'https://youtube-rashidov.netlify.app/',
+  githubURL : 'https://tezkor24.vercel.app/',
+  images : [
+  {
+    id : 1,
+    image : yu1
   },
   {
-    id : 6,
-    image : tezkor6
+    id : 2,
+    image : yu2
   },
+  {
+    id : 3,
+    image : yu3
+  },
+  {
+    id : 4,
+    image : yu4
+  }
+  ]
+},
+{
+  id : 6,
+  name : 'DTM.UZ',
+  technology : "React JS, Typescript, React Redux, Sass",
+  description : `In this project I built a clone of dtm.uz whis is test organized center
+  for students to qualify all universities in Uzbekistan. In this project I used React Typescript and Redux toolkit`,
+  projectURL : 'https://dtmuzz.netlify.app/',
+  githubURL : 'https://tezkor24.vercel.app/',
+  images : [
+  {
+    id : 1,
+    image : dtm1
+  },
+  {
+    id : 2,
+    image : dtm2
+  },
+  {
+    id : 3,
+    image : dtm3
+  },
+  {
+    id : 4,
+    image : dtm4
+  },
+  {
+    id : 5,
+    image : dtm5
+  }
   ]
 },
 ]
