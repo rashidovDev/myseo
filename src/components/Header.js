@@ -20,10 +20,10 @@ const Header = () => {
         bg ? 'bg-tertiary h-20' : 'h-24'
       } flex items-center fixed top-0 w-full text-white z-10 transition-all duration-300`}
     >
-      <div className='container mx-auto h-full flex items-center justify-between'>
+      <div className='w-[80%] mx-auto h-full flex items-center justify-between'>
         {/* logo */}
         <a href='/'>
-          <h1 className='text-3xl bold logo'>rashidov<span style={{color:"#AC6B34"}}>Dev</span></h1>
+          <h1 className='text-3xl bold logo'>A<span style={{color:"#AC6B34"}}>rashidov</span></h1>
         </a>
         {/* nav */}
         <div className='hidden lg:block'>

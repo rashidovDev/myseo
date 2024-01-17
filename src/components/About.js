@@ -1,39 +1,56 @@
 import React from 'react';
-import portfolio from '../assets/img/phot1.jpg';
+import portfolio from '../assets/img/me.jpg';
+import project from '../assets/projects.png'
 
+const FILE = 'http://localhost:3000/2023.pdf'
 const About = () => {
+
+  const downloadFile = (url) => {
+  const fileName = url.split('/').pop()
+  const aTag = document.createElement('a')
+  aTag.href = url
+  aTag.setAttribute('download', fileName)
+  document.body.appendChild(aTag)
+  aTag.click();
+  aTag.remove()
+  }
+
   return (
-    <section className='section bg-secondary' id='about'>
-      <div className='container mx-auto align-center'>
-        <div className='flex flex-col xl:flex-row md:gap-24 gap-2 items-center'>
-          <img
-            className='object-cover w-[566px] md:mx-auto lg:mx-0 rounded-2xl md:h-[500px] h-[400px] '
+    <div className=' py-10 bg-secondary' id='about'>
+     <div>
+      <h1 className='md:text-[50px] text-[35px] text-center font-bold'>About me</h1>
+      <div className='md:flex md:w-[80%] md:justify-between md:mx-auto items-center md:my-10'>
+        <div className='my-10 flex justify-center'>
+        <img
+            className='object-cover w-[300px] md:mx-auto lg:mx-0 rounded-2xl md:hidden flex justify-center items-center  h-[300px] '
             src={portfolio}
             alt=''
           />
-          <div className='flex flex-col items-center text-center lg:items-start lg:text-left'>
-            <div className='flex flex-col'>
-              <div className='hidden md:inline'>
-              <h2 className='text-3xl lg:text-4xl md:inline font-medium lg:font-extrabold mb-3 before:content-about  
-              relative before:absolute before:opacity-40 before:-top-[2rem] before:hidden before:lg:block italic'>
-                Anvar Rashidov
-              </h2>
-              <p className='mb-4 text-accent'>
-                Web Developer
-              </p>
-              </div>
-              <hr className='mb-8 opacity-5' />
-              <p className='mb-8 p-2 text-justify'>
-              I'm a passionate Full Stack Developer with a deep love for JavaScript and a strong commitment to crafting elegant and efficient web solutions. I like being on a mission to bridge the gap between front-end and back-end development.With a strong background in JavaScript, I'm adept at creating responsive, user-friendly web applications.
-              </p>
-            </div>
-            <a href='http://t.me/anvar_rashidov' className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all rounded-[12px] cursor-pointer'>
-               Contact Me
-            </a>
-          </div>
+          <img
+            className=' w-[650px] rounded-md md:mx-auto lg:mx-0 hidden
+             md:flex justify-center items-center  h-[400px] '
+            src={require('../assets/projects.png')}
+            alt=''
+          />
         </div>
+        
+        <div className='w-[85%] md:w-[650px] md:mx-0 mx-auto '>
+        <div className='text-justify my-2 text-[18px] md:leading-8'>I'm a passionate Full Stack Web Developer with a deep love for JavaScript.
+        About 2 years as a Web developer I worked on several projects both Backend and Frontend. As a Frontend engineer
+         I am really good at developing interactive and responsive user interfaces.My proficiency in React library allows me to 
+         to create seamless, modular, and visually stunning web applications. These days I am primarily working as a Frontend engineer in order to build 
+         interactive web applications in several startups. 
+        </div>
+             <button
+             onClick={() => downloadFile(FILE)}
+              className='bg-accent text-[30px] cursor-pointer w-full p-3 my-4 text-center text-[#fff] rounded-lg'>
+        Get Resume
+        </button>
+        </div>
+        
       </div>
-    </section>
+     </div>
+    </div>
   );
 };
 

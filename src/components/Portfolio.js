@@ -1,17 +1,25 @@
 import React from 'react';
 // import components
 import Projects from './Projects';
+import { projectsData } from '../data';
 
 const Portfolio = () => {
   return (
-    <section id='portfolio' className='section bg-primary min-h-[1400px]'>
-      <div className='container mx-auto'>
+    <section id='projects' className=' bg-primary md:py-8 py-5'>
+      <div className='w-[80%] mx-auto'>
         <div className='flex flex-col items-center text-center'>
-          <h2 className='section-title before:content-portfolio relative before:absolute before:opacity-40 before:-top-[2rem] before:-left-3/4 before:hidden before:lg:block italic text-5xl'>
-            My Projects
+          <h2 className=' font-bold mb-[30px]
+          md:text-[40px] text-[30px]'>
+            Projects
           </h2>
         </div>
-        <Projects />
+        {
+        projectsData.map((item, idx) => {
+          return(
+            <Projects key={idx} item={item}/>
+          )
+        })
+        }
       </div>
     </section>
   );

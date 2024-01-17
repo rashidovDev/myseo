@@ -9,27 +9,14 @@ import {
   FiMapPin,
 } from 'react-icons/fi';
 
-import {RiEnglishInput} from "react-icons/ri"; 
+import {RiEnglishInput, RiKakaoTalkFill} from "react-icons/ri"; 
 import {
   FaLinkedin,
   FaTelegram
 } from "react-icons/fa"
 
-// projects images
-import Project1 from './assets/img/projects/zorfastfood.jpg';
-import Project7 from './assets/img/projects/youtube.jpg';
-import Project2 from './assets/img/projects/dtm.jpg';
-import Project3 from './assets/img/projects/weatherr.jpg';
-import Project4 from './assets/img/projects/shoppinguz.jpg';
-import Project5 from './assets/img/projects/myportfolio.jpg';
-import Project6 from './assets/img/projects/calculatorr.jpg';
-import Project8 from "./assets/img/projects/mern.jpg"
-import Project9 from "./assets/img/projects/commerc.jpg"  
-import Project10 from "./assets/img/projects/asaxiy1.jpg"
-import Project11 from "./assets/img/projects/bookshelf.jpg"
-import Project12 from "./assets/img/projects/airfel.jpg"
-import Project13 from "./assets/img/projects/todo.jpg"
-import Project14 from "./assets/img/projects/posts.jpg"
+
+
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png';
 import SkillImg2 from './assets/img/skills/css3.png';
@@ -45,6 +32,13 @@ import SkillImg11 from './assets/img/skills/nodejs.png';
 import SkillImg12 from './assets/img/skills/expressjs.png';
 import SkillImg13 from './assets/img/skills/mongodb.png';
 
+// projects images
+import tezkor1 from './assets/project/tezkor24/tezkor1.png'
+import tezkor2 from './assets/project/tezkor24/tezkor2.png'
+import tezkor3 from './assets/project/tezkor24/tezkor3.png'
+import tezkor4 from './assets/project/tezkor24/tezkor4.png'
+import tezkor5 from './assets/project/tezkor24/tezkor5.png'
+import tezkor6 from './assets/project/tezkor24/tezkor6.png'
 
 // navigation
 export const navigation = [
@@ -57,20 +51,16 @@ export const navigation = [
     href: 'about',
   },
   {
-    name: 'portfolio',
-    href: 'portfolio',
-  },
-  {
-    name: 'services',
-    href: 'services',
-  },
+    name: 'projects',
+    href: 'projects',
+  }
 ];
 
 // social
 export const social = [
   {
     icon: <FiInstagram />,
-    // href: 'http://instagram.com/rashidov_dev',
+    href: 'http://instagram.com/arashidov_',
   },
   {
     icon: <FiGithub />,
@@ -84,143 +74,105 @@ export const social = [
     icon: <FaTelegram />,
     href: 'http://t.me/anvar_rashidov',
   },
+  // {
+  //   icon: <RiKakaoTalkFill />,
+  //   href: 'http://t.me/anvar_rashidov',
+  // },
 ];
 
 // projects
 export const projectsData = [
+{
+  id : 1,
+  name : 'Tezkor24',
+  technology : "Node JS, Express JS, REST API, React JS, React Redux",
+  description : `Tezkor24 is startup project on the fast and convenient 
+  delivery service of food and fast food products in Tashkent. When it 
+  comes to the project, I work on both the backend and frontend from 
+  scratch to cover more functionality of this project. To develop the Backend,
+  I used Express js to handle requests, and business logic and interact with 
+  the database. During the development process, there were small problems
+  such as implementing user authentication and authorization,
+  creating user roles etc. According to Frontend, I used React and 
+  some libraries such as Redux to develop user-friendly web application.
+  There is an admin panel that is only available for admins so far to monitor
+  important actions and receive information about order processes, customers,
+  couriers and also restaurants and their products as well.`,
+  projectURL : 'https://tezkor24.vercel.app/',
+  githubURL : 'https://github.com/rashidovDev/Tezkor24client',
+  images : [
   {
-    id: '12',
-    image: Project12,
-    title: "React,Redux,Bootstrap",
-    name: "Airfel.smsfly.uz",
-    category: 'ReactJS',
-    href : "https://airfel.smsfly.uz",
-    code : ""
+    id : 1,
+    image : tezkor1
   },
   {
-    id: '1',
-    image: Project1,
-    title: "Redux,Redux toolkit,Tailwind",
-    name: "Zo'rFastfood.uz",
-    category: 'NextJS',
-    href : "https://zo-r-fast-food-uz.vercel.app",
-    code : "https://github.com/rashidovDev/Zo-rFastFood.uz"
+    id : 2,
+    image : tezkor2
   },
   {
-    id: '10',
-    image: Project10,
-    title: "Typescript,Redux,Tailwind",
-    name: "Asaxiy-Clone",
-    category: 'Typescript',
-    href : "https://asaxiy-rashidovdev.netlify.app",
-    code : "https://github.com/rashidovDev/Zo-rFastFood.uz"
+    id : 3,
+    image : tezkor3
   },
   {
-    id: '3',
-    image: Project7,
-    title: "Typescript,MUI,API",
-    name: "Youtube-Clone",
-    category: 'Typescript',
-    href : "https://youtube-rashidov.netlify.app",
-    code : "https://github.com/rashidovDev/Youtube-Clone"
-  },
- 
-
-  {
-    id: '4',
-    image: Project2,
-    title: "Typescript,React-Redux",
-    name: 'Dtm-clone',
-    category: 'Typescript',
-    href : "https://dtmuzz.netlify.app/",
-    code : "https://github.com/rashidovDev/DTM-clone"
+    id : 4,
+    image : tezkor4
   },
   {
-    id: '5',
-    image: Project9,
-    title: "React,Typescript,Redux,Tailwind",
-    name: "Commerce",
-    category: 'Typescript',
-    href : "https://commerce-rashidov.netlify.app",
-    code : "https://github.com/rashidovDev/scientech"
+    id : 5,
+    image : tezkor5
   },
   {
-    id: '13',
-    image: Project13,
-    title: "React,Redux,Tailwind,MUI",
-    name: "TodoApp",
-    category: 'ReactJS',
-    href : "https://todolist-rashidovdev.netlify.app/",
-    code : "https://github.com/rashidovDev/todo-app"
+    id : 6,
+    image : tezkor6
+  },
+  ]
+},
+{
+  id : 2,
+  name : 'Tezkor24',
+  technology : "Node JS, Express JS, REST API, React JS, React Redux",
+  description : `Tezkor24 is startup project on the fast and convenient 
+  delivery service of food and fast food products in Tashkent. When it 
+  comes to the project, I work on both the backend and frontend from 
+  scratch to cover more functionality of this project. To develop the Backend,
+  I used Express js to handle requests, and business logic and interact with 
+  the database. During the development process, there were small problems
+  such as implementing user authentication and authorization,
+  creating user roles etc. According to Frontend, I used React and 
+  some libraries such as Redux to develop user-friendly web application.
+  There is an admin panel that is only available for admins so far to monitor
+  important actions and receive information about order processes, customers,
+  couriers and also restaurants and their products as well.`,
+  projectURL : 'https://tezkor24.vercel.app/',
+  githubURL : 'https://tezkor24.vercel.app/',
+  images : [
+  {
+    id : 1,
+    image : tezkor1
   },
   {
-    id: '14',
-    image: Project14,
-    title: "React,Redux toolkit,Tailwind",
-    name: "Posts",
-    category: 'ReactJS',
-    href : "https://postodo.netlify.app",
-    code : "https://github.com/rashidovDev/justreinforceskills"
+    id : 2,
+    image : tezkor2
   },
   {
-    id: '2',
-    image: Project8,
-    title: "React,Pagination,Express,MongoDb",
-    name: "MERN-TODO",
-    category: 'ReactJS',
-    href : "https://todo-mern7.netlify.app/",
-    code : "https://github.com/rashidovDev/Client-side"
+    id : 3,
+    image : tezkor3
   },
   {
-    id: '6',
-    image: Project3,
-    title: "React,Weather API",
-    name: 'Weather',
-    category: 'ReactJS',
-    href : "http://weather-rashidov.netlify.app",
-    code : "https://github.com/rashidovDev/Weather"
+    id : 4,
+    image : tezkor4
   },
   {
-    id: '7',
-    image: Project5,
-    title: "NextJS,Reactstrap",
-    name: 'Portfolio',
-    category: 'NextJS',
-    href : "http://myportrashidov.netlify.app",
-    code : "https://github.com/rashidovDev/myportfolio"
+    id : 5,
+    image : tezkor5
   },
   {
-    id: '8',
-    image: Project4,
-    title: "React,React-Redux,Bootstrap",
-    name: 'ShoppingUz',
-    category: "ReactJS",
-    href : "https://rashidovshop.netlify.app/",
-    code : "https://github.com/rashidovDev/shop-online"
+    id : 6,
+    image : tezkor6
   },
- 
-  {
-    id: '9',
-    image: Project6,
-    title: "React, React Hooks",
-    name: 'Calculator',
-    category: 'ReactJS',
-    href : "http://calculator-rashidov.netlify.app",
-    code : "https://github.com/rashidovDev/MERN-todo-list"
-  },
-  
-  {
-    id: '11',
-    image: Project11,
-    title: "Typescript,Redux,REST API,MUI",
-    name: "BookShelf",
-    category: 'Typescript',
-    href : "https://rashidov-bookshelf.netlify.app",
-    code : "https://github.com/rashidovDev/BookShelf"
-  },
-  
- 
-];
+  ]
+},
+]
 
 // projects
 export const projectsNav = [

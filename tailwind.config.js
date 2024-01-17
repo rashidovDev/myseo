@@ -2,13 +2,13 @@ module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     fontFamily: {
-      primary: 'Playfair Display',
-      body: 'Work Sans',
+      primary: '',
+      body: 'Open Sans, sans-serif',
     },
     container: {
       padding: {
         DEFAULT: '1rem',
-        lg: '3rem',
+        lg: '0.5rem',
       },
     },
     screens: {
