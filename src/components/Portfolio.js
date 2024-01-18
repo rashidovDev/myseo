@@ -21,6 +21,7 @@ const Portfolio = () => {
         })
         }
       </div>
+    
     </section>
   );
 };

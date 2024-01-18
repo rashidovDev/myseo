@@ -66,6 +66,15 @@ import dtm3 from './assets/project/dtm/dtm3.png'
 import dtm4 from './assets/project/dtm/dtm4.png'
 import dtm5 from './assets/project/dtm/dtm5.png'
 
+import k1 from './assets/project/ksneaker/k1.png'
+import k2 from './assets/project/ksneaker/k2.png'
+import k3 from './assets/project/ksneaker/k3.png'
+import k4 from './assets/project/ksneaker/k4.png'
+import k5 from './assets/project/ksneaker/k5.png'
+import k6 from './assets/project/ksneaker/k6.png'
+import k7 from './assets/project/ksneaker/k7.png'
+import k8 from './assets/project/ksneaker/k8.png'
+
 // navigation
 export const navigation = [
   {
@@ -301,6 +310,49 @@ export const projectsData = [
     id : 5,
     image : dtm5
   }
+  ]
+},
+{
+  id : 7,
+  name : 'KSneakers',
+  technology : "React JS, Typescript, React Redux, Tailwind CSS",
+  description : `  In this project I build a shop which sells various sneakers.For creating it I used React 
+  Typescript and Tailwind CSS for styling`,
+  projectURL : 'https://commerce-rashidov.netlify.app/',
+  githubURL : 'https://tezkor24.vercel.app/',
+  images : [
+  {
+    id : 1,
+    image : k1
+  },
+  {
+    id : 2,
+    image : k2
+  },
+  {
+    id : 3,
+    image : k3
+  },
+  {
+    id : 4,
+    image : k4
+  },
+  {
+    id : 5,
+    image : k5
+  },
+  {
+    id : 6,
+    image : k6
+  },
+  {
+    id : 7,
+    image : k7
+  },
+  {
+    id : 8,
+    image : k8
+  },
   ]
 },
 ]
