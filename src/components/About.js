@@ -2,7 +2,7 @@ import React from 'react';
 import portfolio from '../assets/img/me.jpg';
 import project from '../assets/projects.png'
 
-const FILE = 'http://localhost:3000/2023.pdf'
+const FILE = 'https://arashidov.vercel.app/ARashidov.pdf'
 const About = () => {
 
   const downloadFile = (url) => {
