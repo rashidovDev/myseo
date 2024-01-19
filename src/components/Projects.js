@@ -44,8 +44,7 @@ const Projects = ({item}) => {
       {
           item.images.map((item, idx) => {
             return (
-              <a  href='https://tezkor24.vercel.app'>
-          
+              <a target="_blank"  href='https://tezkor24.vercel.app'>
               <img className=' rounded-md' src={item.image} />
               </a>
             )
@@ -56,14 +55,14 @@ const Projects = ({item}) => {
         <div className='md:mb-[40px] mb-[20px] md:mr-5'>
           <h2 className='font-bold text-[22px] '>Project URL</h2>
           <div className='my-2'>
-            <a href={item.projectURL}
+            <a target="_blank" href={item.projectURL}
             className='text-[16px] text-[blue] cursor-pointer'>{item.projectURL}</a>
           </div>
         </div>
         {/* <div className='md:mb-[40px] md:ml-5'>
           <h2 className='font-bold text-[22px]'>Github Link</h2>
           <div className='my-2'>
-            <a href={item.projectURL}
+            <a target="_blank" href={item.projectURL}
              className='text-[16px] text-[blue] cursor-pointer'>{item.githubURL}</a>
           </div>
         </div> */}

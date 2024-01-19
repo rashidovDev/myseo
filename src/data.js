@@ -39,6 +39,9 @@ import tezkor3 from './assets/project/tezkor24/tezkor3.png'
 import tezkor4 from './assets/project/tezkor24/tezkor4.png'
 import tezkor5 from './assets/project/tezkor24/tezkor5.png'
 import tezkor6 from './assets/project/tezkor24/tezkor6.png'
+import tezkor7 from './assets/project/tezkor24/tezkor7.png'
+import tezkor8 from './assets/project/tezkor24/tezkor8.png'
+import tezkor9 from './assets/project/tezkor24/tezkor9.png'
 
 import airfel1 from './assets/project/Airfel/airfel1.png'
 import airfel2 from './assets/project/Airfel/airfel2.png'
@@ -74,6 +77,10 @@ import k5 from './assets/project/ksneaker/k5.png'
 import k6 from './assets/project/ksneaker/k6.png'
 import k7 from './assets/project/ksneaker/k7.png'
 import k8 from './assets/project/ksneaker/k8.png'
+
+import yemak1 from './assets/project/yemak/yemak1.png'
+import yemak2 from './assets/project/yemak/yemak2.png'
+import yemak3 from './assets/project/yemak/yemak3.png'
 
 // navigation
 export const navigation = [
@@ -161,6 +168,18 @@ export const projectsData = [
     id : 6,
     image : tezkor6
   },
+  {
+    id : 7,
+    image : tezkor7
+  },
+  {
+    id : 8,
+    image : tezkor8
+  },
+  {
+    id : 9,
+    image : tezkor9
+  },
   ]
 },
 {
@@ -194,6 +213,30 @@ export const projectsData = [
 },
 {
   id : 3,
+  name : 'Yemak.uz',
+  technology : "React JS, Sass, Bootstrap, React Redux, Unit testing",
+  description : `This project offers different kind of restaurants to customer to order foods online in Karshi, Uzbekistan.To develop it, 
+  we use React and several react libraries to optimize performance.Moreover we used google map Adding google map to enhance user experience and
+  providing additional functionality`,
+  projectURL : 'https://yemak.uz',
+  githubURL : 'https://tezkor24.vercel.app/',
+  images : [
+  {
+    id : 1,
+    image : yemak1
+  },
+  {
+    id : 2,
+    image : yemak2
+  },
+  {
+    id : 3,
+    image : yemak3
+  }
+  ]
+},
+{
+  id : 4,
   name : 'Asaxiy LLC',
   technology : "React JS, Typescript, React Redux, Reduxt toolkit, Tailwind css, Material UI",
   description : `In this project I built a clone of Asaxiy which is one of the popular ecommerce website in Uzbekistan.
@@ -220,38 +263,7 @@ export const projectsData = [
   }
   ]
 },
-{
-  id : 4,
-  name : 'Zorfastfood.uz',
-  technology : "React JS, React Redux, Reduxt toolkit Tailwind Css",
-  description : `In this project I built a website for Zorfastfood fastfood center. In this project I used React.For state management I used Redux toolkit
-  which is one of the popular react library and this project is fully user friendly as well.For using this application is very convenient 
-  for consumers to order different kinds of fastfood products`,
-  projectURL : 'https://zorfastfooduz.vercel.app/',
-  githubURL : 'https://tezkor24.vercel.app/',
-  images : [
-  {
-    id : 1,
-    image : zor1
-  },
-  {
-    id : 2,
-    image : zor2
-  },
-  {
-    id : 3,
-    image : zor3
-  },
-  {
-    id : 4,
-    image : zor4
-  },
-  {
-    id : 5,
-    image : zor5
-  }
-  ]
-},
+
 {
   id : 5,
   name : 'My Youtube',
@@ -314,6 +326,38 @@ export const projectsData = [
 },
 {
   id : 7,
+  name : 'Zorfastfood.uz',
+  technology : "React JS, React Redux, Reduxt toolkit Tailwind Css",
+  description : `In this project I built a website for Zorfastfood fastfood center. In this project I used React.For state management I used Redux toolkit
+  which is one of the popular react library and this project is fully user friendly as well.For using this application is very convenient 
+  for consumers to order different kinds of fastfood products`,
+  projectURL : 'https://zorfastfooduz.vercel.app/',
+  githubURL : 'https://tezkor24.vercel.app/',
+  images : [
+  {
+    id : 1,
+    image : zor1
+  },
+  {
+    id : 2,
+    image : zor2
+  },
+  {
+    id : 3,
+    image : zor3
+  },
+  {
+    id : 4,
+    image : zor4
+  },
+  {
+    id : 5,
+    image : zor5
+  }
+  ]
+},
+{
+  id : 8,
   name : 'KSneakers',
   technology : "React JS, Typescript, React Redux, Tailwind CSS",
   description : `  In this project I build a shop which sells various sneakers.For creating it I used React 
@@ -355,6 +399,7 @@ export const projectsData = [
   },
   ]
 },
+
 ]
 
 // projects
