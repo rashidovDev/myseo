@@ -22,7 +22,7 @@ const About = () => {
       <div className='md:flex md:w-[80%] md:justify-between md:mx-auto items-center md:my-10'>
         <div className='my-10 flex justify-between'>
         <img
-            className='object-cover w-[300px] md:mx-auto lg:mx-0 rounded-2xl md:hidden flex justify-center items-center  h-[300px] '
+            className='object-cover w-[300px] mx-auto lg:mx-0 rounded-2xl md:hidden flex justify-center items-center  h-[300px] '
             src={portfolio}
             alt=''
           />
@@ -43,7 +43,8 @@ const About = () => {
         </div>
              <button
              onClick={() => downloadFile(FILE)}
-              className='bg-accent text-[30px] cursor-pointer w-full p-3 my-4 text-center text-[#fff] rounded-lg'>
+              className='bg-accent md:text-[30px] text-[25px] 
+              cursor-pointer w-full p-3 my-4 text-center text-[#fff] rounded-lg'>
         Get Resume
         </button>
         </div>

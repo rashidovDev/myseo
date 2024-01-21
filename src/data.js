@@ -18,7 +18,7 @@ import {
 
 
 // skills images
-import SkillImg1 from './assets/img/skills/html5.png';
+import SkillImg1 from './assets/img/skills/html5.png'; 
 import SkillImg2 from './assets/img/skills/css3.png';
 import SkillImg3 from './assets/img/skills/bootstrap.png';
 import SkillImg4 from './assets/img/skills/sass.png';
@@ -459,35 +459,6 @@ export const skills = [
   {
     image: SkillImg13,
   },
-];
-
-
-// services
-export const services = [
-  {
-    icon: <FiLayout />,
-    name: 'Web Design',
-    description:
-      'I have a good standart to build amazing UI interfaces',
-  },
-  {
-    icon: <FiSettings />,
-    name: 'Solution Logical Challenges',
-    description:
-      "I am big fan of Coding challenges that's why I can solve several confusing Coding challenges ",
-  },
-  {
-    icon: <FiPenTool />,
-    name: 'Socialism',
-    description:
-      'I am social person and I get on with team without complication ',
-  },
-  {
-    icon: <RiEnglishInput/>,
-    name: 'Polyglot',
-    description:
-      'I have a pretty knowledge in English and I have a good communication skills',
-  }
 ];
 
 // contact

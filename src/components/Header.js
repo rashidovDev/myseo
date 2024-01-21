@@ -26,7 +26,7 @@ const Header = () => {
           <h1 className='text-3xl bold logo'>A<span style={{color:"#AC6B34"}}>rashidov</span></h1>
         </a>
         {/* nav */}
-        <div className='hidden lg:block'>
+        <div className='hidden md:flex'>
           <Nav />
         </div>
         {/* Socials */}
