@@ -42,10 +42,10 @@ const Projects = ({item}) => {
       <div className='md:w-[50%] md:h-[500px]'>
       <Slider arrows={false} {...settings}>
       {
-          item.images.map((item, idx) => {
+          item.images.map((ite, idx) => {
             return (
-              <a target="_blank"  href='https://tezkor24.vercel.app'>
-              <img className=' rounded-md' src={item.image} />
+              <a target="_blank"  href={item.projectURL}>
+              <img className=' rounded-md' src={ite.image} />
               </a>
             )
         })    

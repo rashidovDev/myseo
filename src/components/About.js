@@ -27,14 +27,14 @@ const About = () => {
             alt=''
           />
           <img
-            className=' w-[600px] rounded-md md:mx-auto lg:mx-0 hidden
+            className=' md:w-[550px] lg:w-[600px] rounded-md md:mx-auto lg:mx-0 hidden
              md:flex justify-center items-center  h-[350px] '
             src={require('../assets/projects.png')}
             alt=''
           />
         </div>
         
-        <div className='w-[85%] md:w-[600px] md:mx-0 mx-auto'>
+        <div className='w-[85%] md:w-[550px]  lg:w-[600px]  md:mx-0 mx-auto'>
         <div className='text-justify my-2 text-[18px] md:leading-8'>I'm a passionate Full Stack Web Developer with a deep love for JavaScript.
         About 2 years as a Web developer I worked on several projects both Backend and Frontend. As a Frontend engineer
          I am really good at developing interactive and responsive user interfaces.My proficiency in React library allows me to 
