@@ -27,14 +27,14 @@ const About = () => {
             alt=''
           />
           <img
-            className=' w-[650px] rounded-md md:mx-auto lg:mx-0 hidden
-             md:flex justify-center items-center  h-[400px] '
+            className=' w-[600px] rounded-md md:mx-auto lg:mx-0 hidden
+             md:flex justify-center items-center  h-[350px] '
             src={require('../assets/projects.png')}
             alt=''
           />
         </div>
         
-        <div className='w-[85%] md:w-[650px] md:mx-0 mx-auto'>
+        <div className='w-[85%] md:w-[600px] md:mx-0 mx-auto'>
         <div className='text-justify my-2 text-[18px] md:leading-8'>I'm a passionate Full Stack Web Developer with a deep love for JavaScript.
         About 2 years as a Web developer I worked on several projects both Backend and Frontend. As a Frontend engineer
          I am really good at developing interactive and responsive user interfaces.My proficiency in React library allows me to 
@@ -43,8 +43,7 @@ const About = () => {
         </div>
              <button
              onClick={() => downloadFile(FILE)}
-              className='bg-accent md:text-[30px] text-[25px] 
-              cursor-pointer w-full p-3 my-4 text-center text-[#fff] rounded-lg'>
+              className='bg-accent md:text-[30px] text-[25px] cursor-pointer w-full p-3 my-4 text-center text-[#fff] rounded-lg'>
         Get Resume
         </button>
         </div>
