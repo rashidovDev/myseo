@@ -4,7 +4,7 @@ import project from '../assets/projects.png'
 
 const FILE = window.location.hostname === "localhost" 
 ? "/arashidov.pdf"  // Local development
-: "https://arashidov.vercel.app/arashidov.pdf"; // Production
+: "https://arashidov.vercel.app/ARashidov.pdf"; // Production
 const About = () => {
 
   const downloadFile = (url) => {
