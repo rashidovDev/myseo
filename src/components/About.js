@@ -2,18 +2,26 @@ import React from 'react';
 import portfolio from '../assets/img/me.jpg';
 import project from '../assets/projects.png'
 
-const FILE = 'https://arashidov.vercel.app/arashidov.pdf'
-const About = () => {
+const FILE = 'https://arashidov.vercel.app/arashidov.pdf';
 
-  const downloadFile = (url) => {
-  const fileName = url.split('/').pop()
-  const aTag = document.createElement('a')
-  aTag.href = url
-  aTag.setAttribute('download', fileName)
-  document.body.appendChild(aTag)
-  aTag.click();
-  aTag.remove()
-  }
+const About = () => {
+  const downloadFile = async (url) => {
+    try {
+      const response = await fetch(url);
+      const blob = await response.blob();
+      const fileName = url.split('/').pop();
+
+      const aTag = document.createElement("a");
+      aTag.href = URL.createObjectURL(blob);
+      aTag.setAttribute("download", fileName);
+      document.body.appendChild(aTag);
+      aTag.click();
+      URL.revokeObjectURL(aTag.href); // Cleanup memory
+      aTag.remove();
+    } catch (error) {
+      console.error("Download failed:", error);
+    }
+  };
 
   return (
     <div className=' py-10 bg-secondary' id='about'>
