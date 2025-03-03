@@ -33,15 +33,14 @@ import SkillImg12 from './assets/img/skills/expressjs.png';
 import SkillImg13 from './assets/img/skills/mongodb.png';
 
 // projects images
-import tezkor1 from './assets/project/tezkor24/tezkor1.png'
-import tezkor2 from './assets/project/tezkor24/tezkor2.png'
-import tezkor3 from './assets/project/tezkor24/tezkor3.png'
-import tezkor4 from './assets/project/tezkor24/tezkor4.png'
-import tezkor5 from './assets/project/tezkor24/tezkor5.png'
-import tezkor6 from './assets/project/tezkor24/tezkor6.png'
-import tezkor7 from './assets/project/tezkor24/tezkor7.png'
-import tezkor8 from './assets/project/tezkor24/tezkor8.png'
-import tezkor9 from './assets/project/tezkor24/tezkor9.png'
+import tezkor1 from './assets/project/tezkor24/1.png'
+import tezkor2 from './assets/project/tezkor24/2.png'
+import tezkor3 from './assets/project/tezkor24/3.png'
+import tezkor4 from './assets/project/tezkor24/4.png'
+import tezkor5 from './assets/project/tezkor24/5.png'
+import tezkor6 from './assets/project/tezkor24/6.png'
+import tezkor7 from './assets/project/tezkor24/7.png'
+
 
 import airfel1 from './assets/project/Airfel/airfel1.png'
 import airfel2 from './assets/project/Airfel/airfel2.png'
@@ -57,6 +56,12 @@ import zor2 from './assets/project/zor/zor2.png'
 import zor3 from './assets/project/zor/zor3.png'
 import zor4 from './assets/project/zor/zor4.png'
 import zor5 from './assets/project/zor/zor5.png'
+
+import oqt1 from './assets/project/Oqtepa/1.png'
+import oqt2 from './assets/project/Oqtepa/2.png'
+import oqt3 from './assets/project/Oqtepa/3.png'
+import oqt4 from './assets/project/Oqtepa/4.png'
+import oqt5 from './assets/project/Oqtepa/5.png'
 
 import yu1 from './assets/project/youtube/yu1.png'
 import yu2 from './assets/project/youtube/yu2.png'
@@ -128,20 +133,16 @@ export const projectsData = [
   id : 1,
   name : 'Tezkor24',
   technology : `Node JS, Express JS, REST API, React JS, React query, React forms, 
-  React Redux, Tailwind css, Nodemailer, JWT Token`,
-  description : `Tezkor24 is startup project on the fast and convenient 
-  delivery service of food and fast food products in Tashkent. When it 
-  comes to the project, I work on both the backend and frontend from 
-  scratch to cover more functionality of this project. To develop the Backend,
-  I used Express js to handle requests, and business logic and interact with 
-  the database. During the development process, there were small problems
-  such as implementing user authentication and authorization,
-  creating user roles etc. According to Frontend, I used React and 
-  some libraries such as Redux to develop user-friendly web application.
-  There is an admin panel that is only available for admins so far to monitor
-  important actions and receive information about order processes, customers,
-  couriers and also restaurants and their products as well.`,
-  projectURL : 'https://tezkor24.vercel.app/',
+  React Redux, Tailwind css, Nodemailer, JWT Token, Nginx, Amazon EC2`,
+  description : `Tezkor24 is a startup project focused on fast and convenient food delivery
+   in Tashkent. I developed both the backend and frontend from scratch to ensure comprehensive functionality.
+For the backend, I used Express.js to handle requests, manage business logic, and interact
+ with the database. During development, I encountered challenges such as implementing user 
+ authentication and authorization, as well as creating user roles.
+On the frontend, I used React along with libraries like Redux to build a user-friendly web application. 
+Additionally, there is an admin panel accessible only to administrators, allowing them to
+ monitor key actions, track order processes, manage customers, couriers, restaurants, and their products.`,
+  projectURL : 'https://tezkor24.shop/',
   githubURL : 'https://github.com/rashidovDev/Tezkor24client',
   images : [
   {
@@ -172,14 +173,6 @@ export const projectsData = [
     id : 7,
     image : tezkor7
   },
-  {
-    id : 8,
-    image : tezkor8
-  },
-  {
-    id : 9,
-    image : tezkor9
-  },
   ]
 },
 {
@@ -187,7 +180,7 @@ export const projectsData = [
   name : 'Airfel',
   technology : `React JS, React Redux, Redux toolkit, React query,  JWT Token, Unit testing,
    REST API, Sass, Bootstrap5`,
-  description : `Airfel is a Turkish company which sells air conditioners around the world.
+  description : `Airfel is a Turkish company which sells air conditioners and heaters around the world.
   We worked on develop Admin and Operator panel to monitor sales and other information in Uzbekistan. 
    During development process
   I was responsible for implementing various CRUD operations through receiving different kind of API.
@@ -195,7 +188,7 @@ export const projectsData = [
   prevent unexpected errors in production.
   `,
   projectURL : 'https://airfel.com/',
-  githubURL : 'https://tezkor24.vercel.app/',
+  githubURL : '',
   images : [
   {
     id : 1,
@@ -358,6 +351,38 @@ export const projectsData = [
 },
 {
   id : 8,
+  name : 'Oqtepa Lavash',
+  technology : "React JS,  React Redux, Bootstrap, CSS",
+  description : `Worked with a team to develop a website for Oqtepa Lavash which is a bakery in Tashkent.
+  In this project I used React and Bootstrap to develop user-friendly web application.`,
+  projectURL : 'https://oqtepalavash.uz/',
+  githubURL : '',
+  images : [
+  {
+    id : 1,
+    image : oqt1
+  },
+  {
+    id : 2,
+    image : oqt2
+  },
+  {
+    id : 3,
+    image : oqt3
+  },
+  {
+    id : 4,
+    image : oqt4
+  },
+  {
+    id : 5,
+    image : oqt5
+  },
+  ]
+},
+
+{
+  id : 9,
   name : 'KSneakers',
   technology : "React JS, Typescript, React Redux, Tailwind CSS",
   description : `  In this project I build a shop which sells various sneakers.For creating it I used React 

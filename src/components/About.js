@@ -2,7 +2,7 @@ import React from 'react';
 import portfolio from '../assets/img/me.jpg';
 import project from '../assets/projects.png'
 
-const FILE = 'https://arashidov.vercel.app/ARashidov.pdf'
+const FILE = 'https://arashidov.vercel.app/arashidov.pdf'
 const About = () => {
 
   const downloadFile = (url) => {
@@ -36,9 +36,9 @@ const About = () => {
         
         <div className='w-[85%] md:w-[550px]  lg:w-[600px]  md:mx-0 mx-auto'>
         <div className='text-justify my-2 text-[18px] md:leading-8'>I'm a passionate Full Stack Web Developer with a deep love for JavaScript.
-        About 2 years as a Web developer I worked on several projects both Backend and Frontend. As a Frontend engineer
+        About 3 years as a Web developer I worked on several projects both Backend and Frontend. As a Frontend engineer
          I am really good at developing interactive and responsive user interfaces.My proficiency in React library allows me to 
-         to create seamless, modular, and visually stunning web applications. These days I am primarily working as a Frontend engineer in order to build 
+         to create seamless, modular, and visually stunning web applications. These days I am primarily working as a Full stack engineer in order to build 
          interactive web applications in several startups. 
         </div>
              <button
