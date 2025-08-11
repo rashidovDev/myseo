@@ -349,37 +349,37 @@ Additionally, there is an admin panel accessible only to administrators, allowin
   }
   ]
 },
-{
-  id : 8,
-  name : 'Oqtepa Lavash',
-  technology : "React JS,  React Redux, Bootstrap, CSS",
-  description : `Worked with a team to develop a website for Oqtepa Lavash which is a bakery in Tashkent.
-  In this project I used React and Bootstrap to develop user-friendly web application.`,
-  projectURL : 'https://oqtepalavash.uz/',
-  githubURL : '',
-  images : [
-  {
-    id : 1,
-    image : oqt1
-  },
-  {
-    id : 2,
-    image : oqt2
-  },
-  {
-    id : 3,
-    image : oqt3
-  },
-  {
-    id : 4,
-    image : oqt4
-  },
-  {
-    id : 5,
-    image : oqt5
-  },
-  ]
-},
+// {
+//   id : 8,
+//   name : 'Oqtepa Lavash',
+//   technology : "React JS,  React Redux, Bootstrap, CSS",
+//   description : `Worked with a team to develop a website for Oqtepa Lavash which is a bakery in Tashkent.
+//   In this project I used React and Bootstrap to develop user-friendly web application.`,
+//   projectURL : 'https://oqtepalavash.uz/',
+//   githubURL : '',
+//   images : [
+//   {
+//     id : 1,
+//     image : oqt1
+//   },
+//   {
+//     id : 2,
+//     image : oqt2
+//   },
+//   {
+//     id : 3,
+//     image : oqt3
+//   },
+//   {
+//     id : 4,
+//     image : oqt4
+//   },
+//   {
+//     id : 5,
+//     image : oqt5
+//   },
+//   ]
+// },
 
 {
   id : 9,
