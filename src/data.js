@@ -2,14 +2,12 @@
 import {
   FiInstagram,
   FiGithub,
-  FiLayout,
-  FiSettings,
-  FiPenTool,
+ 
   FiMail,
   FiMapPin,
 } from 'react-icons/fi';
 
-import {RiEnglishInput, RiKakaoTalkFill} from "react-icons/ri"; 
+
 import {
   FaLinkedin,
   FaTelegram
@@ -72,12 +70,6 @@ import zor2 from './assets/project/zor/zor2.png'
 import zor3 from './assets/project/zor/zor3.png'
 import zor4 from './assets/project/zor/zor4.png'
 import zor5 from './assets/project/zor/zor5.png'
-
-import oqt1 from './assets/project/Oqtepa/1.png'
-import oqt2 from './assets/project/Oqtepa/2.png'
-import oqt3 from './assets/project/Oqtepa/3.png'
-import oqt4 from './assets/project/Oqtepa/4.png'
-import oqt5 from './assets/project/Oqtepa/5.png'
 
 import yu1 from './assets/project/youtube/yu1.png'
 import yu2 from './assets/project/youtube/yu2.png'
