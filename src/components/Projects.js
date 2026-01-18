@@ -42,8 +42,9 @@ const Projects = ({item}) => {
       {
           item.images.map((ite, idx) => {
             return (
-              <a key={idx + 1} target="_blank"  href={item.projectURL}>
-              <img className='h-[400px] rounded-md' src={ite.image} />
+              <a key={idx + 1}  target="_blank"
+  rel="noopener noreferrer" href={item.projectURL}>
+              <img className='h-[400px] rounded-md' src={ite.image}  alt='Projects'/>
               </a>
             )
         })    
@@ -53,7 +54,7 @@ const Projects = ({item}) => {
         <div className='md:mb-[40px] mb-[20px] md:mr-5'>
           <h2 className='font-bold text-[22px] '>Project URL</h2>
           <div className='my-2'>
-            <a target="_blank" href={item.projectURL}
+            <a target="_blank" href={item.projectURL} rel="noopener noreferrer"
             className='text-[16px] text-[blue] cursor-pointer'>{item.projectURL}</a>
           </div>
         </div>
