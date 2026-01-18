@@ -1,21 +1,21 @@
-import React from 'react';
+// import React from 'react';
 import portfolio from '../assets/img/me.jpg';
-import project from '../assets/projects.png'
+// import project from '../assets/projects.png'
 
-const FILE = window.location.hostname === "localhost" 
-? "/arashidov.pdf"  // Local development
-: "https://arashidov.vercel.app/ARashidov.pdf"; // Production
-const About = () => {
+// const FILE = window.location.hostname === "localhost" 
+// ? "/arashidov.pdf"  // Local development
+// : "https://arashidov.vercel.app/ARashidov.pdf"; // Production
+const  About = () => {
 
-  const downloadFile = (url) => {
-  const fileName = url.split('/').pop()
-  const aTag = document.createElement('a')
-  aTag.href = url
-  aTag.setAttribute('download', fileName)
-  document.body.appendChild(aTag)
-  aTag.click();
-  aTag.remove()
-  }
+  // const downloadFile = (url) => {
+  // const fileName = url.split('/').pop()
+  // const aTag = document.createElement('a')
+  // aTag.href = url
+  // aTag.setAttribute('download', fileName)
+  // document.body.appendChild(aTag)
+  // aTag.click();
+  // aTag.remove()
+  // }
 
   return (
     <div className=' py-10 bg-secondary' id='about'>
