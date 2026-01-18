@@ -37,17 +37,17 @@ const About = () => {
         </div>
         
         <div className='w-[85%] md:w-[550px]  lg:w-[600px]  md:mx-0 mx-auto'>
-        <div className='text-justify my-2 text-[18px] md:leading-8'>I'm a passionate Full Stack Web Developer with a deep love for JavaScript.
-        About 3 years as a Web developer I worked on several projects both Backend and Frontend. As a Frontend engineer
-         I am really good at developing interactive and responsive user interfaces.My proficiency in React library allows me to 
-         to create seamless, modular, and visually stunning web applications. These days I am primarily working as a Full stack engineer in order to build 
-         interactive web applications in several startups. 
+        <div className='text-justify my-2 text-[18px] md:leading-8'>I am a passionate Full Stack Web Developer with a strong focus on JavaScript and over three years of professional experience building web applications. I have worked on a wide range of projects across both frontend and backend, contributing to the full development lifecycle.
+
+As a frontend-focused engineer, I specialize in building interactive, responsive, and user-friendly interfaces. I am highly proficient in React and enjoy creating clean, modular, and visually appealing applications with strong attention to performance and usability.
+
+Currently, I work primarily as a Full Stack Engineer, developing scalable and interactive web applications for several startups, collaborating closely with product and design teams to deliver high-quality solutions.
         </div>
-             <button
+             {/* <button
              onClick={() => downloadFile(FILE)}
               className='bg-accent md:text-[30px] text-[25px] cursor-pointer w-full p-3 my-4 text-center text-[#fff] rounded-lg'>
         Get Resume
-        </button>
+        </button> */}
         </div>
         
       </div>

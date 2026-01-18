@@ -40,6 +40,22 @@ import tezkor4 from './assets/project/tezkor24/4.png'
 import tezkor5 from './assets/project/tezkor24/5.png'
 import tezkor6 from './assets/project/tezkor24/6.png'
 import tezkor7 from './assets/project/tezkor24/7.png'
+import tezkor8 from './assets/project/tezkor24/8.png'
+
+import nex1 from './assets/project/nexoai/1.png'
+import nex2 from './assets/project/nexoai/2.png'
+import nex3 from './assets/project/nexoai/3.png'
+import nex4 from './assets/project/nexoai/4.png'
+import nex5 from './assets/project/nexoai/5.png'
+import nex6 from './assets/project/nexoai/6.png'
+
+
+import el1 from './assets/project/eloncha/1.png'
+import el2 from './assets/project/eloncha/2.png'
+import el3 from './assets/project/eloncha/3.png'
+import el4 from './assets/project/eloncha/4.png'
+import el5 from './assets/project/eloncha/5.png'
+
 
 
 import airfel1 from './assets/project/Airfel/airfel1.png'
@@ -129,7 +145,7 @@ export const social = [
 
 // projects
 export const projectsData = [
-{
+  {
   id : 1,
   name : 'Tezkor24',
   technology : `Node JS, Express JS, REST API, React JS, React query, React forms, 
@@ -147,7 +163,7 @@ Additionally, there is an admin panel accessible only to administrators, allowin
   images : [
   {
     id : 1,
-    image : tezkor1
+    image : tezkor8
   },
   {
     id : 2,
@@ -173,10 +189,109 @@ Additionally, there is an admin panel accessible only to administrators, allowin
     id : 7,
     image : tezkor7
   },
+   {
+    id : 8,
+    image : tezkor1
+  },
+  ]
+},
+  {
+  id : 2,
+  name : 'Eloncha',
+  technology : `Node JS, Express JS, REST API, React JS, React query, React forms, 
+  React Redux, Zustand, OAUTH integration Tailwind css, Nodemailer, JWT Token, Nginx, Amazon EC2, Socket IO`,
+  description : `Eloncha.store is a scalable car advertisement
+marketplace that connects car sellers and buyers
+through a modern web platform. Sellers can create,
+post, and manage car listings, while users can
+browse vehicles, apply advanced filtering, save and
+like cars, and communicate directly with sellers via
+real-time one-to-one chat.
+The frontend is built with Vite + React, using
+Auth Context for secure authentication and Google
+sign-in, and supports a language-friendly interface
+(Korean, English, Russian). The backend is developed
+with Express.js and MongoDB, providing RESTful
+APIs and flexible data modeling. Socket.IO enables
+real-time messaging, while Redis is used for state
+management and caching to enhance performance.
+The application features a clean, responsive UI
+optimized for users in South Korea.`,
+  projectURL : 'https://www.eloncha.store/',
+  githubURL : 'https://github.com/rashidovDev/Tezkor24client',
+  images : [
+  {
+    id : 1,
+    image : el1
+  },
+  {
+    id : 2,
+    image : el2
+  },
+  {
+    id : 3,
+    image : el3
+  },
+  {
+    id : 4,
+    image : el4
+  },
+  {
+    id : 5,
+    image : el5
+  },
   ]
 },
 {
-  id : 2,
+  id : 3,
+  name : 'Nexo-AI',
+  technology : `Node JS, Express JS,Mongo DB, REST API, Next JS, Shadcn-UI,Zustand, zod-validation,
+  React Redux, Tailwind css, Nodemailer, JWT Token, Nginx, Amazon EC2`,
+  description : `Nexo-AI is an AI-powered real-time chat
+system designed for both peer-to-peer and
+group conversations. The platform focuses on
+secure authentication, smooth user experience,
+and modern communication features, enabling
+users to chat seamlessly across devices.
+It supports Google and GitHub authorization,
+OTP-based email verification, and QR code
+login for fast and secure access. Nexo-AI is built
+with Next.js and TypeScript, uses NextAuth for
+authentication, shadcn/ui for a clean and
+responsive interface, and an Express.js backend
+with Nodemailer for verification and
+notification workflows.`,
+  projectURL : 'https://www.nexo-ai.site',
+  githubURL : 'https://github.com/rashidovDev/Tezkor24client',
+  images : [
+  {
+    id : 1,
+    image : nex1
+  },
+  {
+    id : 2,
+    image : nex2
+  },
+  {
+    id : 3,
+    image : nex3
+  },
+  {
+    id : 4,
+    image : nex4
+  },
+  {
+    id : 5,
+    image : nex5
+  },
+  {
+    id : 6,
+    image : nex6
+  },
+  ]
+},
+{
+  id : 4,
   name : 'Airfel',
   technology : `React JS, React Redux, Redux toolkit, React query,  JWT Token, Unit testing,
    REST API, Sass, Bootstrap5`,
@@ -205,7 +320,7 @@ Additionally, there is an admin panel accessible only to administrators, allowin
   ]
 },
 {
-  id : 3,
+  id : 5,
   name : 'Yemak.uz',
   technology : "React JS, Sass, Bootstrap, React Redux, Unit testing",
   description : `This project offers different kind of restaurants to customer to order foods online in Karshi, Uzbekistan.To develop it, 
@@ -229,7 +344,7 @@ Additionally, there is an admin panel accessible only to administrators, allowin
   ]
 },
 {
-  id : 4,
+  id : 6,
   name : 'Asaxiy LLC',
   technology : "React JS, Typescript, React Redux, Reduxt toolkit, Tailwind css, Material UI",
   description : `In this project I built a clone of Asaxiy which is one of the popular ecommerce website in Uzbekistan.
@@ -258,7 +373,7 @@ Additionally, there is an admin panel accessible only to administrators, allowin
 },
 
 {
-  id : 5,
+  id : 7,
   name : 'My Youtube',
   technology : "React JS, Typescript, React Redux, Tailwind Css, Material UI",
   description : `In this project I built a my youtube which is specialised to work as 
@@ -287,7 +402,7 @@ Additionally, there is an admin panel accessible only to administrators, allowin
   ]
 },
 {
-  id : 6,
+  id : 8,
   name : 'DTM.UZ',
   technology : "React JS, Typescript, React Redux, Sass",
   description : `In this project I built a clone of dtm.uz whis is test organized center
@@ -318,7 +433,7 @@ Additionally, there is an admin panel accessible only to administrators, allowin
   ]
 },
 {
-  id : 7,
+  id : 9,
   name : 'Zorfastfood.uz',
   technology : "React JS, React Redux, Reduxt toolkit Tailwind Css",
   description : `In this project I built a website for Zorfastfood fastfood center. In this project I used React.For state management I used Redux toolkit
@@ -382,7 +497,7 @@ Additionally, there is an admin panel accessible only to administrators, allowin
 // },
 
 {
-  id : 9,
+  id : 10,
   name : 'KSneakers',
   technology : "React JS, Typescript, React Redux, Tailwind CSS",
   description : `  In this project I build a shop which sells various sneakers.For creating it I used React 

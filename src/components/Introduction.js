@@ -16,7 +16,7 @@ const Hero = () => {
               Hi, I am Anvar 
             </p> 
             <h1 className='text-4xl leading-[44px] md:text-center md:text-5xl md:leading-tight lg:text-7xl lg:leading-[1.2] font-bold md:tracking-[-2px] mb-7 text-center'>
-              I am WEB <br />Developer 
+              I am Full Stack <br />Developer 
             </h1>
             <div className='flex justify-center'>
             <a href='https://www.linkedin.com/in/anvarrashidov/'
@@ -29,7 +29,7 @@ const Hero = () => {
           </div>
 
           <div className='object-cover hidden md:flex'>
-            <img src={require('../assets/img/me.jpg')} alt="Just me" className='w-[350px] h-96 object-cover rounded-[8px] lg:ml-24' />
+            <img src={require('../assets/t.JPG')} alt="Just me" className='w-[350px] h-96 object-cover rounded-[8px] lg:ml-24' />
           </div>
         </div>
 

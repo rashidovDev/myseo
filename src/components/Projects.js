@@ -43,7 +43,7 @@ const Projects = ({item}) => {
           item.images.map((ite, idx) => {
             return (
               <a key={idx + 1} target="_blank"  href={item.projectURL}>
-              <img className=' rounded-md' src={ite.image} />
+              <img className='h-[400px] rounded-md' src={ite.image} />
               </a>
             )
         })    
