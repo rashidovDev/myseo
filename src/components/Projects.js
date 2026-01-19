@@ -44,7 +44,7 @@ const Projects = ({item}) => {
             return (
               <a key={idx + 1}  target="_blank"
   rel="noopener noreferrer" href={item.projectURL}>
-              <img className='h-[400px] rounded-md' src={ite.image}  alt='Projects'/>
+              <img className='md:h-[400px] rounded-md' src={ite.image}  alt='Projects'/>
               </a>
             )
         })    
