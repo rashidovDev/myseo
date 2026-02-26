@@ -52,7 +52,7 @@ import pizza9 from './assets/project/pizzalab/8.png'
 import pizza10 from './assets/project/pizzalab/9.png'
 import pizza11 from './assets/project/pizzalab/10.png'
 import pizza12 from './assets/project/pizzalab/11.png'
-import pizza13 from './assets/project/pizzalab/13.png'
+
 
 
 import nex1 from './assets/project/nexoai/1.png'
