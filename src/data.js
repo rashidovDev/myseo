@@ -40,6 +40,21 @@ import tezkor6 from './assets/project/tezkor24/6.png'
 import tezkor7 from './assets/project/tezkor24/7.png'
 import tezkor8 from './assets/project/tezkor24/8.png'
 
+import pizza1 from './assets/project/pizzalab/1.png'
+import pizza2 from './assets/project/pizzalab/2.png'
+import pizza3 from './assets/project/pizzalab/3.png'
+import pizza4 from './assets/project/pizzalab/2.4.png'
+import pizza5 from './assets/project/pizzalab/4.png'
+import pizza6 from './assets/project/pizzalab/5.png'
+import pizza7 from './assets/project/pizzalab/6.png'
+import pizza8 from './assets/project/pizzalab/7.png'
+import pizza9 from './assets/project/pizzalab/8.png'
+import pizza10 from './assets/project/pizzalab/9.png'
+import pizza11 from './assets/project/pizzalab/10.png'
+import pizza12 from './assets/project/pizzalab/11.png'
+import pizza13 from './assets/project/pizzalab/13.png'
+
+
 import nex1 from './assets/project/nexoai/1.png'
 import nex2 from './assets/project/nexoai/2.png'
 import nex3 from './assets/project/nexoai/3.png'
@@ -137,6 +152,70 @@ export const social = [
 
 // projects
 export const projectsData = [
+    {
+  id : 0,
+  name : 'PizzaLab',
+  technology : `Node JS, Nest JS, Graphql API, Prisma ORM, PostgreSQL, Next JS, Apollo client, React forms, 
+  Zod Schema, Shadcn UI, Tailwind css, Nodemailer, JWT Token, Nginx, Digital Ocean droplet, `,
+  description : `PizzaLab is a modern online pizza ordering and delivery platform serving customers in Seoul and Incheon,
+   South Korea. The platform enables customers to browse menus,
+   customize pizzas, place orders, and track deliveries in real-time from PizzaLab stores.
+  Providing a seamless digital ordering experience for pizza lovers in the Seoul-Incheon metropolitan area, 
+  offering convenient online ordering,
+    real-time order tracking, and exceptional customer service through an intuitive web platform.`,
+  projectURL : 'https://www.pizzalab.food/',
+  githubURL : 'https://github.com/rashidovDev/Tezkor24client',
+  images : [
+  {
+    id : 1,
+    image : pizza1
+  },
+  {
+    id : 2,
+    image : pizza2
+  },
+  {
+    id : 3,
+    image : pizza3
+  },
+  {
+    id : 4,
+    image : pizza4
+  },
+  {
+    id : 5,
+    image : pizza5
+  },
+  {
+    id : 6,
+    image : pizza6
+  },
+  {
+    id : 7,
+    image : pizza7
+  },
+   {
+    id : 8,
+    image : pizza8
+  },
+   {
+    id : 9,
+    image : pizza9
+  },
+  {
+    id : 10,
+    image : pizza10
+  },
+  {
+    id : 11,
+    image : pizza11
+  },
+  {
+    id : 12,
+    image : pizza12
+  },
+  ]
+},
   {
   id : 1,
   name : 'Tezkor24',
