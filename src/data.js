@@ -13,8 +13,6 @@ import {
   FaTelegram
 } from "react-icons/fa"
 
-
-
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png'; 
 import SkillImg2 from './assets/img/skills/css3.png';
