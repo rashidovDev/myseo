@@ -1,5 +1,5 @@
 // import React from 'react';
-import portfolio from '../assets/img/me.jpg';
+import portfolio from '../assets/t.JPG';
 // import project from '../assets/projects.png'
 
 // const FILE = window.location.hostname === "localhost" 
