@@ -37,12 +37,12 @@ const  About = () => {
         </div>
         
         <div className='w-[85%] md:w-[550px]  lg:w-[600px]  md:mx-0 mx-auto'>
-        <div className='text-justify my-2 text-[18px] md:leading-8'>I am a passionate Full Stack Web Developer with a strong focus on JavaScript and over three years of professional experience building web applications. I have worked on a wide range of projects across both frontend and backend, contributing to the full development lifecycle.
+        <div className='text-justify my-2 text-[18px] md:leading-8'>
+         I am a passionate Full Stack Web Developer with a strong focus on backend development and over three years of professional experience building web applications. I have worked on a wide range of projects across both frontend and backend, with a primary emphasis on designing and developing robust server-side architectures and APIs.
 
-As a frontend-focused engineer, I specialize in building interactive, responsive, and user-friendly interfaces. I am highly proficient in React and enjoy creating clean, modular, and visually appealing applications with strong attention to performance and usability.
+As a backend-focused engineer, I specialize in building scalable, secure, and high-performance systems. I am highly proficient in JavaScript and experienced in working with modern backend technologies, creating efficient APIs, handling authentication and authorization, and managing databases with a strong focus on data integrity and system reliability.
 
-Currently, I work primarily as a Full Stack Engineer, developing scalable and interactive web applications for several startups, collaborating closely with product and design teams to deliver high-quality solutions.
-        </div>
+Currently, I work primarily as a Full Stack Engineer, focusing on backend development for scalable and interactive web applications across several startups. I collaborate closely with frontend, product, and design teams to deliver efficient, maintainable, and high-quality solutions.</div>
              {/* <button
              onClick={() => downloadFile(FILE)}
               className='bg-accent md:text-[30px] text-[25px] cursor-pointer w-full p-3 my-4 text-center text-[#fff] rounded-lg'>

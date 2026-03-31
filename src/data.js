@@ -227,7 +227,7 @@ For the backend, I used Express.js to handle requests, manage business logic, an
 On the frontend, I used React along with libraries like Redux to build a user-friendly web application. 
 Additionally, there is an admin panel accessible only to administrators, allowing them to
  monitor key actions, track order processes, manage customers, couriers, restaurants, and their products.`,
-  projectURL : 'https://tezkor24.shop/',
+  projectURL : 'https://tezkor24.store/',
   githubURL : 'https://github.com/rashidovDev/Tezkor24client',
   images : [
   {
